@@ -2,6 +2,4 @@ transformers
 torch
 numpy
 pathlib
-jaydebeapi 
-JPype1 
-pandas
+datasets
