@@ -16,3 +16,22 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+
+## Datasets
+
+This project uses the following external dataset as a Git submodule:
+
+- **sourcecodeplagiarismdataset**
+  - Repository: https://github.com/oscarkarnalim/sourcecodeplagiarismdataset
+  - Purpose: Source code plagiarism benchmark dataset
+  - License: Apache License
+  - Location: `datasets/sourcecodeplagiarismdataset`
+
+### Cloning
+
+To clone this repository with all datasets:
+
+```bash
+git clone --recurse-submodules <this-repo-url>
+```
