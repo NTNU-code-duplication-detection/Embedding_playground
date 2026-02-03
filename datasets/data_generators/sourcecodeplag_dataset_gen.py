@@ -8,7 +8,7 @@ Dataset:
     License: Apache License 2.0
 
 Usage:
-    from data_generators.sourcecodeplag_dataset_gen import original_non_plagiarized_generator, original_plagiarized_generator
+    from datasets.data_generators.sourcecodeplag_dataset_gen import original_non_plagiarized_generator, original_plagiarized_generator
 """
 from pathlib import Path
 
@@ -49,13 +49,13 @@ def original_non_plagiarized_generator(dataset_root: str):
         if not original_dir.exists() or not non_plag_dir.exists():
             continue
 
-        original_java = find_single_java(original_dir)
+        original_java = _find_single_java(original_dir)
 
         for np_folder in non_plag_dir.iterdir():
             if not np_folder.is_dir():
                 continue
 
-            np_java = find_single_java(np_folder)
+            np_java = _find_single_java(np_folder)
             yield original_java, np_java
 
 
@@ -78,7 +78,7 @@ def original_plagiarized_generator(dataset_root: str):
         if not original_dir.exists() or not plag_dir.exists():
             continue
 
-        original_java = find_single_java(original_dir)
+        original_java = _find_single_java(original_dir)
 
         for plag_outer in plag_dir.iterdir():
             if not plag_outer.is_dir():
@@ -88,5 +88,5 @@ def original_plagiarized_generator(dataset_root: str):
                 if not plag_inner.is_dir():
                     continue
 
-                plag_java = find_single_java(plag_inner)
+                plag_java = _find_single_java(plag_inner)
                 yield original_java, plag_java
