@@ -1,0 +1,3 @@
+[submodule "datasets/sourcecodeplagiarismdataset"]
+	path = datasets/sourcecodeplagiarismdataset
+	url = https://github.com/oscarkarnalim/sourcecodeplagiarismdataset

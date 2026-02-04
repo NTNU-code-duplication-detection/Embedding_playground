@@ -46,4 +46,3 @@ if __name__ == '__main__':
     print_cosine_similarity(output_hello_world, output_bye_world)
 
 
-
