@@ -12,7 +12,7 @@ This project uses two external datasets: one as a Git submodule, and one large d
 To clone this repository including all Git submodules:
 
 ```bash
-git clone --recursive-submodules <this-repo-url>
+git clone --recursive-submodules https://github.com/NTNU-code-duplication-detection/dataset_loader
 ```
 
 If you already cloned the repo without submodules, you can initalize them:
