@@ -1,0 +1,15 @@
+repos:
+  # Conventional Commits validation
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v3.2.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: [FEAT, FIX, DOCS, REFACTOR, CHORE, TEST, MERGE]
+
+  # Python: PyLint
+  - repo: https://github.com/pycqa/pylint
+    rev: v3.1.0
+    hooks:
+      - id: pylint
+        files: \.py$
