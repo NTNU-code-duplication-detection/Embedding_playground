@@ -1,12 +1,16 @@
+"""
+Main entry point
+"""
 import sys
-from src.test import test_ir_plag, traverse_dataset_lazy
 
 
 def main():
+    """
+    Test different functions
+    """
     # Program entrypoint
     #test_ir_plag()
-    traverse_dataset_lazy()
-
+    print('pass')
 
 if __name__ == '__main__':
     # We ballin
