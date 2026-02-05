@@ -1,11 +1,7 @@
 transformers
 torch
 numpy
-pathlib
 datasets
-sqlalchemy
-psycopg2
-getpass
 javalang
 pylint
 matplotlib
