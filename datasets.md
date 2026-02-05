@@ -1,15 +1,20 @@
 # Datasets
-This project uses three external datasets: one as a Git submodule, one large dataset from OneDrive, and one from HuggingFace.
+This project uses four external datasets: one as a Git submodule, one large dataset from OneDrive, and one from HuggingFace.
 
-## 1. Git Submodule Dataset
+## 1 & 2. Git Submodule Dataset
+First submodule
 - **Name:** sourcecodeplagiarismdataset
 - **Repository:** https://github.com/oscarkarnalim/sourcecodeplagiarismdataset
 - **Purpose:** Source code plagiarism benchmark dataset
 - **Licence:** Apache License 2.0
 - **Location in project:** `datasets/sourcecodeplagiarismdataset`
 
+Second submodule
+Created by us\
+[Link](https://github.com/NTNU-code-duplication-detection/code-clone-dataset)
+
 ### Cloning the Repository with Submodules
-To clone this repository including all Git submodules:
+To clone this repository including all  Git submodules:
 
 ```bash
 git clone --recursive-submodules https://github.com/NTNU-code-duplication-detection/dataset_loader
@@ -20,7 +25,7 @@ If you already cloned the repo without submodules, you can initalize them:
 git submodule update --init --recursive
 ```
 
-## 2. Large Dataset: Pure IJaDataset + BigCloneBench Samples
+## 3. Large Dataset: Pure IJaDataset + BigCloneBench Samples
 - **Source:** [BigCloneBench Version 2](https://github.com/clonebench/BigCloneBench?tab=readme-ov-file#bigclonebench-version-2-use-this-version)
 - **Direct Download Link:** [OneDrive](https://1drv.ms/u/s!AhXbM6MKt_yLj_tk29GJnc9BKoIvCg?e=oVTVJm)
 - **Purpose:** Large dataset of code samples for clone detection
@@ -55,7 +60,7 @@ export BIGCLONEBENCH_ROOT=/mnt/ssd/bigclonebench
 ```
 
 
-## 3. CodeXGlue from Google/Microsoft/Madlag
+## 4. CodeXGlue from Google/Microsoft/Madlag
 - **Source:** [Hugging Face - CodeXGlue Clone detection](https://huggingface.co/datasets/google/code_x_glue_cc_clone_detection_big_clone_bench)
 - **Purpose:** Provides labeled pairs of Java methods from BigCloneBench, for training and evaluating code clone detection models. Each pair has a binary label indicating whether the two methods are clones/plagiarized (1) or not (0).
 - **Format:** JSON/CSV-style dataset with fields including
