@@ -1,14 +1,15 @@
-# Use a pipeline as a high-level helper
-from transformers import pipeline
+"""
+Use a pipeline as a high-level helper
+"""
 import numpy as np
 
+from transformers import pipeline
 
 def get_feature_extraction_pipe(model_name: str) -> pipeline:
     """
     Loads a pipeline from huggingface with emphasis on feature extraction using model_name as model
     """
-    pipe = pipeline("feature-extraction", model=model_name)
-    return pipe
+    return pipeline("feature-extraction", model=model_name)
 
 
 def mean_pool(pipeline_output):
@@ -35,14 +36,9 @@ def print_cosine_similarity(vec1, vec2):
 
 
 if __name__ == '__main__':
-    """
-    Load model and create a simple embedding
-    """
-    model="microsoft/unixcoder-base"
-    pipe = get_feature_extraction_pipe(model)
+    MODEL="microsoft/unixcoder-base"
+    pipe_ = get_feature_extraction_pipe(MODEL)
 
-    output_hello_world = mean_pool(pipe("Hello world"))
-    output_bye_world = mean_pool(pipe("Bye world"))
+    output_hello_world = mean_pool(pipe_("Hello world"))
+    output_bye_world = mean_pool(pipe_("Bye world"))
     print_cosine_similarity(output_hello_world, output_bye_world)
-
-
