@@ -2,6 +2,7 @@
 Main entry point
 """
 import sys
+from test.visualizer_test import test_visualizer
 
 
 def main():
@@ -10,6 +11,7 @@ def main():
     """
     # Program entrypoint
     #test_ir_plag()
+    test_visualizer()
     print('pass')
 
 if __name__ == '__main__':
