@@ -176,8 +176,23 @@ def main() -> None:
         log.error("Input and output directories must be different.")
         return
 
+    # Guard against output being a subdirectory of input, which would
+    # cause the tool to process its own output files
+    if output_dir.is_relative_to(input_dir):
+        log.error("Output directory cannot be inside the input directory.")
+        return
+
     log.info("Input:  %s", input_dir)
     log.info("Output: %s", output_dir)
+
+    if output_dir.exists():
+        existing = list(output_dir.rglob("*.java"))
+        if existing:
+            log.warning(
+                "Output directory already contains %d .java files. "
+                "Existing files will be overwritten.",
+                len(existing),
+            )
 
     stats = process_directory(input_dir, output_dir)
 
