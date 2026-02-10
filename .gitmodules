@@ -1,3 +1,6 @@
 [submodule "data/custom-dataset"]
 	path = data/custom-dataset
 	url = https://github.com/NTNU-code-duplication-detection/code-clone-dataset
+[submodule "data/code-clone-dataset"]
+	path = data/code-clone-dataset
+	url = https://github.com/NTNU-code-duplication-detection/code-clone-dataset.git
