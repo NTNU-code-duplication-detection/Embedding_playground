@@ -9,22 +9,24 @@ from data.data_generators.sourcecodeplag_dataset_gen import (
     original_non_plagiarized_generator,
     original_plagiarized_generator
 )
+from data.data_generators.code_clone_dataset_gen import code_clone_dataset_generator
 
 
 _DATASET_REGISTRY = {
     "bigclonebench": {
         "non_plagiarized": samples_generator,
         "plagiarized": default_generator
-        # **kw is dataset location
     },
     "codexglue": {
         "pairs": bigclonebench_hf_generator
-        # **kw is split (train, validate, test)
     },
     "sourcecodeplag": {
         "plagiarized": original_plagiarized_generator,
         "non_plagiarized": original_non_plagiarized_generator
-        # **kw is dataset location, if not default
+    },
+    "codeclonedataset": {
+        "pairs": code_clone_dataset_generator
+        # **kw: dataset_root, clone_type
     },
 }
 
