@@ -1,8 +1,7 @@
 """
 Context-aware code chunker for Java methods.
 
-Produces chunks that preserve full control-structure bodies and carry
-forward context (e.g. variable declarations) across chunk boundaries.
+Produces chunks that preserve full control-structure bodies.
 Drop-in replacement for the get_ready_to_embed_chunks pipeline.
 """
 
@@ -154,19 +153,8 @@ def _lines_to_text(line_idxs, lines):
     return "\n".join(lines[i] for i in line_idxs) if line_idxs else ""
 
 
-def _apply_carry_forward(context_buf, context_lines):
-    """Return (carried_lines, carried_stmts) from the context buffer."""
-    carry = context_buf[-context_lines:] if context_lines else []
-    carried_lines = []
-    carried_stmts = []
-    for c_lines, c_stmt, _ in carry:
-        carried_lines.extend(c_lines)
-        carried_stmts.append(c_stmt)
-    return carried_lines, carried_stmts
-
-
-def _chunk_method(method_decl, lines, max_tokens, context_lines, tokenizer):
-    """Greedy-pack a single method's statements into context-aware chunks."""
+def _chunk_method(method_decl, lines, max_tokens, tokenizer):
+    """Greedy-pack a single method's statements into chunks."""
     atoms = _build_atoms(method_decl, lines)
     if not atoms:
         return []
@@ -174,9 +162,8 @@ def _chunk_method(method_decl, lines, max_tokens, context_lines, tokenizer):
     chunks = []
     cur_lines = []
     cur_stmts = []
-    context_buf = []
 
-    for atom_lines, stmt, ctrl in atoms:
+    for atom_lines, stmt, _ in atoms:
         if cur_lines:
             combined_tokens = _estimate_tokens(
                 _lines_to_text(sorted(set(cur_lines + atom_lines)), lines),
@@ -190,16 +177,11 @@ def _chunk_method(method_decl, lines, max_tokens, context_lines, tokenizer):
                                  method_decl.name, lines)
             if chunk:
                 chunks.append(chunk)
-            cur_lines, cur_stmts = _apply_carry_forward(
-                context_buf, context_lines)
+            cur_lines = []
+            cur_stmts = []
 
         cur_lines.extend(atom_lines)
         cur_stmts.append(stmt)
-
-        if ctrl:
-            context_buf = []
-        else:
-            context_buf.append((atom_lines, stmt, ctrl))
 
     chunk = _flush_chunk(cur_lines, cur_stmts, method_decl.name, lines)
     if chunk:
@@ -208,8 +190,7 @@ def _chunk_method(method_decl, lines, max_tokens, context_lines, tokenizer):
     return chunks
 
 
-def get_context_chunks(java_code, max_tokens=480, context_lines=2,
-                       tokenizer=None):
+def get_context_chunks(java_code, max_tokens=480, tokenizer=None):
     """
     Split every method in *java_code* into context-aware chunks.
 
@@ -220,9 +201,6 @@ def get_context_chunks(java_code, max_tokens=480, context_lines=2,
     max_tokens : int
         Soft token budget per chunk (~480 for RoBERTa-512 with room for
         special tokens).
-    context_lines : int
-        Number of trailing non-control statements from the previous chunk
-        to duplicate as prefix context in the next chunk.
     tokenizer : callable or None
         ``tokenizer(text) -> int`` returning token count.  Falls back to a
         conservative ``len(text) // 4 + 1`` heuristic.
@@ -239,15 +217,14 @@ def get_context_chunks(java_code, max_tokens=480, context_lines=2,
         if method_decl.body is None:
             continue
         all_chunks.extend(
-            _chunk_method(method_decl, lines, max_tokens,
-                          context_lines, tokenizer)
+            _chunk_method(method_decl, lines, max_tokens, tokenizer)
         )
 
     return all_chunks
 
 
 def get_ready_to_embed_context_chunks(java_code, max_tokens=480,
-                                      context_lines=2, tokenizer=None):
+                                      tokenizer=None):
     """
     Drop-in replacement for ``get_ready_to_embed_chunks``.
 
@@ -259,7 +236,6 @@ def get_ready_to_embed_context_chunks(java_code, max_tokens=480,
     chunks = get_context_chunks(
         java_code,
         max_tokens=max_tokens,
-        context_lines=context_lines,
         tokenizer=tokenizer,
     )
     return [(c.method_name, c.code, c.ast_dict) for c in chunks]
