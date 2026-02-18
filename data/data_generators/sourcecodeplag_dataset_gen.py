@@ -8,6 +8,7 @@ Dataset:
     License: Apache License 2.0
 """
 from pathlib import Path
+import random
 from data.data_generators.schema import CodeSample
 
 ORIGINAL    = 'original'
@@ -118,3 +119,82 @@ def original_plagiarized_generator(dataset_root: str | Path = DEFAULT_DATASET_RO
                     label=1,
                     dataset='SourceCodePlag'
                 )
+
+
+# pylint: disable=too-many-locals
+# pylint: disable=broad-exception-caught
+def original_plag_triplet_generator(
+    dataset_root: str | Path = DEFAULT_DATASET_ROOT,
+    seed: int | None = None
+):
+    """
+    Yields (anchor, clone, nonclone) triplets from IR-Plag-Dataset.
+
+    Anchor     = original code
+    Clone      = plagiarized version of anchor
+    Non-clone  = original code from a different problem
+    """
+    if seed is not None:
+        random.seed(seed)
+
+    dataset_root = Path(dataset_root)
+
+    problem_dirs = [
+        d for d in dataset_root.iterdir()
+        if d.is_dir() and (d / ORIGINAL).exists()
+    ]
+
+    if len(problem_dirs) < 2:
+        raise ValueError("Need at least 2 problems to sample non-clones")
+
+    for problem_dir in problem_dirs:
+        original_dir = problem_dir / ORIGINAL
+        plag_dir = problem_dir / PLAG
+
+        if not plag_dir.exists():
+            continue
+
+        try:
+            anchor_java = _find_single_java(original_dir)
+            anchor_code = _read_java(anchor_java)
+        except Exception:
+            continue
+
+        # Pick a plagiarized version
+        plag_folders = [
+            d for d in plag_dir.iterdir()
+            if d.is_dir()
+        ]
+
+        for plag_outer in plag_folders:
+            for plag_inner in plag_outer.iterdir():
+                if not plag_inner.is_dir():
+                    continue
+
+                try:
+                    clone_java = _find_single_java(plag_inner)
+                    clone_code = _read_java(clone_java)
+                except Exception:
+                    continue
+
+                # Sample non-clone from a DIFFERENT problem
+                neg_problem = random.choice(
+                    [d for d in problem_dirs if d != problem_dir]
+                )
+
+                try:
+                    neg_original_java = _find_single_java(
+                        neg_problem / ORIGINAL
+                    )
+                    nonclone_code = _read_java(neg_original_java)
+                except Exception:
+                    continue
+
+                yield {
+                    "anchor": anchor_code,
+                    "clone": clone_code,
+                    "nonclone": nonclone_code,
+                    "dataset": "SourceCodePlag",
+                    "problem_anchor": problem_dir.name,
+                    "problem_nonclone": neg_problem.name,
+                }
