@@ -46,3 +46,4 @@ classes/
 gcj_compiled/
 pipeline/node_cache/
 pipeline/nb_program_artifacts_*/
+pipeline/aug_cache_gcj/
