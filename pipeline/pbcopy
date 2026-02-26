@@ -1,0 +1,50 @@
+{
+  "items": {},
+  "failures": [
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p003.Mushroom.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p006.A.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p011.taskA.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p012.A.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p013.A.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p015.A.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p019.Mushroom.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p021.mushroom.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p022.A.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p024.A.java",
+      "error": "javac failed for /Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p024.A.java\n/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3f29a9d4bd2111cd7b9ceda4135e2e0104a0e4d9/src/A.java:4: error: package com.google.common.collect does not exist\nimport com.google.common.collect.ImmutableList;\n                                ^\n/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3f29a9d4bd2111cd7b9ceda4135e2e0104a0e4d9/src/A.java:20: error: package ImmutableList does not exist\n        ImmutableList.Builder<Integer> builder = ImmutableList.builder();\n                     ^\n/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3f29a9d4bd2111cd7b9ceda4135e2e0104a0e4d9/src/A.java:20: error: cannot find symbol\n        ImmutableList.Builder<Integer> builder = ImmutableList.builder();\n                                                 ^\n  symbol:   variable ImmutableList\n  location: class A\n3 errors\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p025.ProblemA.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"
+    },
+    {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/googlejam4/1/googlejam1.p026.Mushrooms.java",
+      "error": "decompiler.cli failed\n\nFAILED\n"

@@ -1,0 +1,18 @@
+{
+  "in_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f63361cf48b9fbc54a5821722280da2914490c21/ast_out/methods.jsonl",
+  "model_name": "microsoft/graphcodebert-base",
+  "device": "mps",
+  "max_length": 256,
+  "batch_size": 32,
+  "shard_size": 2000,
+  "num_methods": 1,
+  "cache_hits": 74,
+  "cache_misses": 0,
+  "edge_type_to_id": {
+    "SEQ": 0,
+    "AST": 1,
+    "IF_THEN": 2,
+    "IF_ELSE": 3
+  },
+  "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f63361cf48b9fbc54a5821722280da2914490c21/embed_cache/shards"
+}

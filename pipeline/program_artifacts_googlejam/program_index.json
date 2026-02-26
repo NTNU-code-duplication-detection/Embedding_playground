@@ -1,0 +1,1345 @@
+{
+  "items": {
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p011/googlejam1/p011/taskA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p011/googlejam1/p011/taskA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e3e0112a29e307c5db5f18648adf731afdcaa7fc",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e3e0112a29e307c5db5f18648adf731afdcaa7fc/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p081/googlejam1/p081/Round1AProbA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p081/googlejam1/p081/Round1AProbA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1ce0922e96695986f5120221163a1e2ea87dbc8d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1ce0922e96695986f5120221163a1e2ea87dbc8d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p094/googlejam1/p094/aMushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p094/googlejam1/p094/aMushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_09a2e2b4408862ffe02bb5a3aed7beb433faac67",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_09a2e2b4408862ffe02bb5a3aed7beb433faac67/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p109/googlejam1/p109/R1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p109/googlejam1/p109/R1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6e3992378012631b33a7a146d7f3b0fa3b4da734",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6e3992378012631b33a7a146d7f3b0fa3b4da734/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p120/googlejam1/p120/codeJamA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p120/googlejam1/p120/codeJamA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e4da45b3dfa117832e0096bce08d13a06995732d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e4da45b3dfa117832e0096bce08d13a06995732d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p124/googlejam1/p124/ExoA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p124/googlejam1/p124/ExoA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_704bfbf3af2b88204e5ec9ecb1d066b21d83dc5a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_704bfbf3af2b88204e5ec9ecb1d066b21d83dc5a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p135/googlejam1/p135/MushroomMaster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p135/googlejam1/p135/MushroomMaster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5b3caeda829b2a3f109d45b7b7c489bc204aff29",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5b3caeda829b2a3f109d45b7b7c489bc204aff29/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p150/googlejam1/p150/Round1A15A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p150/googlejam1/p150/Round1A15A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ba0d80558767a803cb7d399f9529fd715aeae36",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ba0d80558767a803cb7d399f9529fd715aeae36/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p154/googlejam1/p154/A2015.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p154/googlejam1/p154/A2015.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e45c23f441e6e637c919074ff98df6d44901958b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e45c23f441e6e637c919074ff98df6d44901958b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p159/googlejam1/p159/CodeJamMushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p159/googlejam1/p159/CodeJamMushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_906a3d2210f95dd49e6fa57905ec30c97c4e8e6e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_906a3d2210f95dd49e6fa57905ec30c97c4e8e6e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p172/googlejam1/p172/CodeJam1A_1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p172/googlejam1/p172/CodeJam1A_1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_821ef65c63ef924d5f6a0912ffd128ad40cd074e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_821ef65c63ef924d5f6a0912ffd128ad40cd074e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p176/googlejam1/p176/MainA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p176/googlejam1/p176/MainA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_890a0237d69e36646b4e1492f4600394cb552a7b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_890a0237d69e36646b4e1492f4600394cb552a7b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p195/googlejam1/p195/Codejam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p195/googlejam1/p195/Codejam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_386d89edc3936c36d0aa86d153eb35ff4a3de7d5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_386d89edc3936c36d0aa86d153eb35ff4a3de7d5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p214/googlejam1/p214/pro1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p214/googlejam1/p214/pro1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d16550114b8ab9e1975703d1767705b3e13ea53a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d16550114b8ab9e1975703d1767705b3e13ea53a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p221/googlejam1/p221/z1_1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p221/googlejam1/p221/z1_1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_22c553c251fadc2e1641d6439f911fe3a038cdd6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_22c553c251fadc2e1641d6439f911fe3a038cdd6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p222/googlejam1/p222/exo1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p222/googlejam1/p222/exo1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e5ba05ad4cf1d573fcf2017579d6cd08b22f35d7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e5ba05ad4cf1d573fcf2017579d6cd08b22f35d7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p230/googlejam1/p230/GC1AA_15.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p230/googlejam1/p230/GC1AA_15.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5012bff3d78e8df2b976940f0ce2484ed33392b4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5012bff3d78e8df2b976940f0ce2484ed33392b4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p243/googlejam1/p243/shroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p243/googlejam1/p243/shroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_92b54f258f6a0833be2a22f14836f3e81d029e9c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_92b54f258f6a0833be2a22f14836f3e81d029e9c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p249/googlejam1/p249/mushmonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p249/googlejam1/p249/mushmonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_55917ddce2d432aa8d1e89eb8437be097037e885",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_55917ddce2d432aa8d1e89eb8437be097037e885/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p257/googlejam1/p257/cj_01.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p257/googlejam1/p257/cj_01.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_26019a721a68a2614922312aec7fe04933c4d1b6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_26019a721a68a2614922312aec7fe04933c4d1b6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p261/googlejam1/p261/Main1A2New.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p261/googlejam1/p261/Main1A2New.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_708ba02162fb67b1f566690a5c3a5a4fb23c7eab",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_708ba02162fb67b1f566690a5c3a5a4fb23c7eab/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p262/googlejam1/p262/Task1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p262/googlejam1/p262/Task1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6727e9888e4d399fc5eae4f86c98d40e9e955e30",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6727e9888e4d399fc5eae4f86c98d40e9e955e30/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p276/googlejam1/p276/D.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p276/googlejam1/p276/D.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_85f0129643cf1f2cd3029f929f49d4c41ebdae1a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_85f0129643cf1f2cd3029f929f49d4c41ebdae1a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p280/googlejam1/p280/Solver.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p280/googlejam1/p280/Solver.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f017e1a8623b3db509709468dca9e842620d25c8",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f017e1a8623b3db509709468dca9e842620d25c8/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p287/googlejam1/p287/CodeJam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p287/googlejam1/p287/CodeJam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1cf0e4a6b04d3a26370a34bab3c4f767126a67f2",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1cf0e4a6b04d3a26370a34bab3c4f767126a67f2/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p289/googlejam1/p289/Q5.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p289/googlejam1/p289/Q5.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ab174a01f3567e9fd0de6923481e60c84b35bbf3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ab174a01f3567e9fd0de6923481e60c84b35bbf3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p316/googlejam1/p316/q1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p316/googlejam1/p316/q1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e8b1c3488e0f6d878a28633974f77fcb351f0bd5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e8b1c3488e0f6d878a28633974f77fcb351f0bd5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p324/googlejam1/p324/code.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p324/googlejam1/p324/code.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_976cde2b2340f4ef5cc13777869667b212ccf034",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_976cde2b2340f4ef5cc13777869667b212ccf034/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p335/googlejam1/p335/prob1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p335/googlejam1/p335/prob1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9fb34ddfdaa05bdb8bb3f0cd7512d8ce231a75fd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9fb34ddfdaa05bdb8bb3f0cd7512d8ce231a75fd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p339/googlejam1/p339/Codejam_2014_1A_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p339/googlejam1/p339/Codejam_2014_1A_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_88860646dc2ee5eca350eb36ac1672c12d2bd19b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_88860646dc2ee5eca350eb36ac1672c12d2bd19b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p344/googlejam1/p344/R1A_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p344/googlejam1/p344/R1A_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cb4a993bbc4c9500910d5f42335bd49bdf34811",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cb4a993bbc4c9500910d5f42335bd49bdf34811/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p350/googlejam1/p350/A1_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p350/googlejam1/p350/A1_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_198f085c760b8bbf0d2b46504586bbb25f28e9d4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_198f085c760b8bbf0d2b46504586bbb25f28e9d4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p356/googlejam1/p356/ASecondRound.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p356/googlejam1/p356/ASecondRound.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e386a6bd434a31e4787739259b63185d5330d0b7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e386a6bd434a31e4787739259b63185d5330d0b7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p360/googlejam1/p360/CodeJamR1A2015A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p360/googlejam1/p360/CodeJamR1A2015A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ea4fe96596b6fe9918801f645ee9897f71a92fa0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ea4fe96596b6fe9918801f645ee9897f71a92fa0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p363/googlejam1/p363/t.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p363/googlejam1/p363/t.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_05f9aec525bd7090d74a4a725f1bf0a719ff9dba",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_05f9aec525bd7090d74a4a725f1bf0a719ff9dba/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p368/googlejam1/p368/Mashroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p368/googlejam1/p368/Mashroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1d14dd09671e5a0e17aab310e3cf8aeb12f4e79b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1d14dd09671e5a0e17aab310e3cf8aeb12f4e79b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p377/googlejam1/p377/GoogleCodeJam_p1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p377/googlejam1/p377/GoogleCodeJam_p1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8d64239819a6531265f7fac7cb4a426a70f5f62b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8d64239819a6531265f7fac7cb4a426a70f5f62b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p378/googlejam1/p378/shrooms.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p378/googlejam1/p378/shrooms.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_691ea46a9929fe3e12ca7849527dc5d672d8197c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_691ea46a9929fe3e12ca7849527dc5d672d8197c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p384/googlejam1/p384/Problem_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p384/googlejam1/p384/Problem_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ffb48cfe7b6d316925968a72bce128c6bd8e2617",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ffb48cfe7b6d316925968a72bce128c6bd8e2617/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p391/googlejam1/p391/problem1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p391/googlejam1/p391/problem1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9b24b7d64492fac82346383db0cd98293a1db274",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9b24b7d64492fac82346383db0cd98293a1db274/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p396/googlejam1/p396/playground.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p396/googlejam1/p396/playground.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8d98af661bce4743645100478946f0128c6e4694",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8d98af661bce4743645100478946f0128c6e4694/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p403/googlejam1/p403/Welcome.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p403/googlejam1/p403/Welcome.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_45fc185acf63d6dfc63f38824d6f00c5f61c147e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_45fc185acf63d6dfc63f38824d6f00c5f61c147e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p407/googlejam1/p407/C.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p407/googlejam1/p407/C.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9b1f949121ab2a87336f6a600ae468a3899b65dd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9b1f949121ab2a87336f6a600ae468a3899b65dd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p409/googlejam1/p409/gcjround1_1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p409/googlejam1/p409/gcjround1_1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_184a4cf5c94f040a2c527e3b85a5e7952f1c6d77",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_184a4cf5c94f040a2c527e3b85a5e7952f1c6d77/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p413/googlejam1/p413/Mush.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p413/googlejam1/p413/Mush.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ca85df0179965dc0aca594dce066987b2a5bb388",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ca85df0179965dc0aca594dce066987b2a5bb388/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p418/googlejam1/p418/Jam1AA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p418/googlejam1/p418/Jam1AA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b0fe44230883a49747e9f8b92f0da416f6decb83",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b0fe44230883a49747e9f8b92f0da416f6decb83/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p426/googlejam1/p426/Round1ATaskAMushroomMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p426/googlejam1/p426/Round1ATaskAMushroomMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8a78cdc99fad06cc40f4f65de2e24e97fca03783",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8a78cdc99fad06cc40f4f65de2e24e97fca03783/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p433/googlejam1/p433/r11.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p433/googlejam1/p433/r11.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d36f1fd4c671bf13eb0245a6af9266fa022dd068",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d36f1fd4c671bf13eb0245a6af9266fa022dd068/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p449/googlejam1/p449/GCJQualA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p449/googlejam1/p449/GCJQualA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ddc349f50fac51d3ca72d3bc8501681b511002c7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ddc349f50fac51d3ca72d3bc8501681b511002c7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p450/googlejam1/p450/Main_Round1A_2015_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p450/googlejam1/p450/Main_Round1A_2015_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9e786c2aad63e3b4377cb93489c473053d82be3e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9e786c2aad63e3b4377cb93489c473053d82be3e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p459/googlejam1/p459/CodeJam2015Round1AA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p459/googlejam1/p459/CodeJam2015Round1AA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b4ada6203c15bc47df576863cb6179fea0df826a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b4ada6203c15bc47df576863cb6179fea0df826a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p460/googlejam1/p460/Problem1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p460/googlejam1/p460/Problem1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e4f4c492137bf17583155ecb0863e7f8fff23911",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e4f4c492137bf17583155ecb0863e7f8fff23911/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p467/googlejam1/p467/P1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p467/googlejam1/p467/P1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0e707505f2ae80ad310322400fffb7ac8ebfaa93",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0e707505f2ae80ad310322400fffb7ac8ebfaa93/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p469/googlejam1/p469/PbA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p469/googlejam1/p469/PbA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_52c9e482e2d1f206029f6b184c6e6d8b66d20b7c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_52c9e482e2d1f206029f6b184c6e6d8b66d20b7c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p476/googlejam1/p476/Pr11.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p476/googlejam1/p476/Pr11.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8af92d48d00ce039fe1341d839beebc938ee3785",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8af92d48d00ce039fe1341d839beebc938ee3785/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p479/googlejam1/p479/CodeJam2015Round1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p479/googlejam1/p479/CodeJam2015Round1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cdeda19809ccbcecb49b851d9390af5d117ed9ad",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cdeda19809ccbcecb49b851d9390af5d117ed9ad/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p484/googlejam1/p484/App.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p484/googlejam1/p484/App.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f161bbdd16e2d9dea5ad9e41ef2e3fa85380bb7f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f161bbdd16e2d9dea5ad9e41ef2e3fa85380bb7f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p485/googlejam1/p485/AMushroomMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p485/googlejam1/p485/AMushroomMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b24ad539a6a1d9e9d26e51832de9f2d186dbc19f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b24ad539a6a1d9e9d26e51832de9f2d186dbc19f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p487/googlejam1/p487/Mooshroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p487/googlejam1/p487/Mooshroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4fd71d8b067899e52158fe79798628b14c7846af",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4fd71d8b067899e52158fe79798628b14c7846af/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p501/googlejam1/p501/AQ1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p501/googlejam1/p501/AQ1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_58d775ec74b06bb4d7ff050dada238022e5765c5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_58d775ec74b06bb4d7ff050dada238022e5765c5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p510/googlejam1/p510/R1A2015A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p510/googlejam1/p510/R1A2015A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d442226fc9954ab169853028fea4cfb4353c68c3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d442226fc9954ab169853028fea4cfb4353c68c3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p515/googlejam1/p515/ProblemASmall.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p515/googlejam1/p515/ProblemASmall.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12ed37274628d9ce351bda6ea27e21ecf894c3b6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12ed37274628d9ce351bda6ea27e21ecf894c3b6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p544/googlejam1/p544/a.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p544/googlejam1/p544/a.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0d585cb3277f41990a7da009c046b575531af1d4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0d585cb3277f41990a7da009c046b575531af1d4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p557/googlejam1/p557/chain.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p557/googlejam1/p557/chain.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ac7b92b2e57d631308288bed4fb28f9f0c86f3c3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ac7b92b2e57d631308288bed4fb28f9f0c86f3c3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p558/googlejam1/p558/Gcj.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p558/googlejam1/p558/Gcj.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_97d468f8bc0bb5f21a1061f97dc3eb1a003e0175",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_97d468f8bc0bb5f21a1061f97dc3eb1a003e0175/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p562/googlejam1/p562/FirstProb.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p562/googlejam1/p562/FirstProb.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34aaa0a76f40ef57e3ab1c8a3342432d94dab904",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34aaa0a76f40ef57e3ab1c8a3342432d94dab904/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p565/googlejam1/p565/SolverMush.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p565/googlejam1/p565/SolverMush.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ce693c53fa495f6651f67355f3ede6388341290f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ce693c53fa495f6651f67355f3ede6388341290f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p568/googlejam1/p568/Question1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p568/googlejam1/p568/Question1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2007359a1cb4b79a33ff5a65c3d05919be9befb7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2007359a1cb4b79a33ff5a65c3d05919be9befb7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p571/googlejam1/p571/Problem1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p571/googlejam1/p571/Problem1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5ae260c79e90fd9b456a0732d5479bfa72dc6451",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5ae260c79e90fd9b456a0732d5479bfa72dc6451/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p572/googlejam1/p572/R1aA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p572/googlejam1/p572/R1aA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9167cd97233f65b27468a555b75d2b08cc5b4ac3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9167cd97233f65b27468a555b75d2b08cc5b4ac3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p586/googlejam1/p586/TaskA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p586/googlejam1/p586/TaskA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4f91af1f957d0f8b8ff17b7629361ce05773fd0d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4f91af1f957d0f8b8ff17b7629361ce05773fd0d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p592/googlejam1/p592/MyOne.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p592/googlejam1/p592/MyOne.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_36167a5a5ecf04d38da3cbc2896578a74938faec",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_36167a5a5ecf04d38da3cbc2896578a74938faec/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p594/googlejam1/p594/OneA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p594/googlejam1/p594/OneA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c732bdf9422535f62c21531c6b6ff9ddc923c58c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c732bdf9422535f62c21531c6b6ff9ddc923c58c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p595/googlejam1/p595/jam3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p595/googlejam1/p595/jam3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c72f260b412f4b97ce3b009ba01b4039f846931d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c72f260b412f4b97ce3b009ba01b4039f846931d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p616/googlejam1/p616/Jam2015_1AC.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p616/googlejam1/p616/Jam2015_1AC.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e39f2e71a04c2b81286d61ca435f7229b66973ea",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e39f2e71a04c2b81286d61ca435f7229b66973ea/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p627/googlejam1/p627/question_3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p627/googlejam1/p627/question_3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d28a8057bea826ce8e41b9586fcc77cb19e0a896",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d28a8057bea826ce8e41b9586fcc77cb19e0a896/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p628/googlejam1/p628/R1Q1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p628/googlejam1/p628/R1Q1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d3b54904b3d3f090f934642f2f361414eb0c8f93",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d3b54904b3d3f090f934642f2f361414eb0c8f93/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p629/googlejam1/p629/CodeJAM.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p629/googlejam1/p629/CodeJAM.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_adbecefac6378f0e930b568714a9fecef0bd669d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_adbecefac6378f0e930b568714a9fecef0bd669d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p631/googlejam1/p631/mushrooms.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p631/googlejam1/p631/mushrooms.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_30a009598bafbd28c8da8bfd71e8d78faf41b1be",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_30a009598bafbd28c8da8bfd71e8d78faf41b1be/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p634/googlejam1/p634/Test.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p634/googlejam1/p634/Test.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5fb9f3994b6a9a53718d076e692db03a37c38d40",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5fb9f3994b6a9a53718d076e692db03a37c38d40/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p638/googlejam1/p638/MushrooMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p638/googlejam1/p638/MushrooMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0b3c67cc7550611165f563efe0da41fe872a2ad1",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0b3c67cc7550611165f563efe0da41fe872a2ad1/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p639/googlejam1/p639/MushMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p639/googlejam1/p639/MushMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_96165a36cb12f79229697982061269e65e054127",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_96165a36cb12f79229697982061269e65e054127/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p640/googlejam1/p640/MyMushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p640/googlejam1/p640/MyMushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8649f007f221d09a87a7b75df5209dd224dbba18",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8649f007f221d09a87a7b75df5209dd224dbba18/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p641/googlejam1/p641/prblmA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p641/googlejam1/p641/prblmA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e58225a4eddeeba44cfacfe2c9a1a2b58fc1e06f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e58225a4eddeeba44cfacfe2c9a1a2b58fc1e06f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p642/googlejam1/p642/CodeJamR1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p642/googlejam1/p642/CodeJamR1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_31dbb1abb5d62509f4867c2a65e46e094bda2741",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_31dbb1abb5d62509f4867c2a65e46e094bda2741/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p647/googlejam1/p647/Result.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p647/googlejam1/p647/Result.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ffd2f09f0aae39ac0e6cafb0e4250403f71d3cf",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ffd2f09f0aae39ac0e6cafb0e4250403f71d3cf/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p651/googlejam1/p651/ushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p651/googlejam1/p651/ushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1b43f459f6993a1be21d268a8297efeaa7309687",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1b43f459f6993a1be21d268a8297efeaa7309687/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p660/googlejam1/p660/ASmall.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p660/googlejam1/p660/ASmall.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_43e27495cf5a483763929b72e6ed092f8d97da35",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_43e27495cf5a483763929b72e6ed092f8d97da35/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p672/googlejam1/p672/Round1AA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p672/googlejam1/p672/Round1AA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_df23dfe3b4d704eb97807aabf2f3a5b90a4245e9",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_df23dfe3b4d704eb97807aabf2f3a5b90a4245e9/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p676/googlejam1/p676/MashroomMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p676/googlejam1/p676/MashroomMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_93eb351f979e178ff0404a7291848063d434472a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_93eb351f979e178ff0404a7291848063d434472a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p680/googlejam1/p680/MushroomMonster2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p680/googlejam1/p680/MushroomMonster2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_00a7dbd4f32319eda5824f1c93bf814e9065dd8e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_00a7dbd4f32319eda5824f1c93bf814e9065dd8e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p682/googlejam1/p682/Run.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p682/googlejam1/p682/Run.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4faa14b521885156e1525020e2add2b3eb8e7ed3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4faa14b521885156e1525020e2add2b3eb8e7ed3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p685/googlejam1/p685/problemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p685/googlejam1/p685/problemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_10ced705e2cb6ea38d39b1cc36eb1aa5d1f6a25b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_10ced705e2cb6ea38d39b1cc36eb1aa5d1f6a25b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p686/googlejam1/p686/Jamur.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p686/googlejam1/p686/Jamur.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7a841e798c2cfa27acb25ef4697bd0c871f54564",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7a841e798c2cfa27acb25ef4697bd0c871f54564/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p688/googlejam1/p688/Prob1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p688/googlejam1/p688/Prob1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0cd2b0147b788e7ea9a40896abdd13a0e695570f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0cd2b0147b788e7ea9a40896abdd13a0e695570f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p691/googlejam1/p691/DriverA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p691/googlejam1/p691/DriverA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_418a0624db62ecf977cfc206e620234ec934a8ec",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_418a0624db62ecf977cfc206e620234ec934a8ec/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p692/googlejam1/p692/mushroomEater.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p692/googlejam1/p692/mushroomEater.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa53a3d42706aac7bb3e4a13e38ea38bc7fc79da",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa53a3d42706aac7bb3e4a13e38ea38bc7fc79da/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p693/googlejam1/p693/codjamr11.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p693/googlejam1/p693/codjamr11.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4c82e669cca8b1b2251efd887ebe33deb506ce4f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4c82e669cca8b1b2251efd887ebe33deb506ce4f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p695/googlejam1/p695/b.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p695/googlejam1/p695/b.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_648e35ce04a391e7a123798737eb777d68b1ba3a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_648e35ce04a391e7a123798737eb777d68b1ba3a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p696/googlejam1/p696/Q4.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p696/googlejam1/p696/Q4.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1b1c29bfa8bb59cbaf236c6256e32ee95155b168",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1b1c29bfa8bb59cbaf236c6256e32ee95155b168/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p697/googlejam1/p697/AL.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p697/googlejam1/p697/AL.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dd0259d194a7b29730d031f0e0f88731884d4315",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dd0259d194a7b29730d031f0e0f88731884d4315/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p699/googlejam1/p699/HelloGoogleJava.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p699/googlejam1/p699/HelloGoogleJava.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4b8451f94b213fe278ce8c4131165637b0afa2b0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4b8451f94b213fe278ce8c4131165637b0afa2b0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p703/googlejam1/p703/ABC.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p703/googlejam1/p703/ABC.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a289ed8ad480e2311b168c3b5418d75277516b1c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a289ed8ad480e2311b168c3b5418d75277516b1c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p706/googlejam1/p706/MushRoom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p706/googlejam1/p706/MushRoom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9475d87e385a62481530fe5c8101de5d7de450ac",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9475d87e385a62481530fe5c8101de5d7de450ac/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p711/googlejam1/p711/Q1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p711/googlejam1/p711/Q1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7d774c54098f5a7d80288269775410b614c0b8c6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7d774c54098f5a7d80288269775410b614c0b8c6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p717/googlejam1/p717/ProbA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p717/googlejam1/p717/ProbA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c3ea6a505308202117954eaed679925f20d61b79",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c3ea6a505308202117954eaed679925f20d61b79/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p723/googlejam1/p723/GCJTemplate.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p723/googlejam1/p723/GCJTemplate.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cc8d888e8d81f0e73a38150aec68740850f84fc",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cc8d888e8d81f0e73a38150aec68740850f84fc/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p733/googlejam1/p733/Shrooms.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p733/googlejam1/p733/Shrooms.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8cfabfe75089acbfd9098459af5afe226603539e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8cfabfe75089acbfd9098459af5afe226603539e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p745/googlejam1/p745/F.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p745/googlejam1/p745/F.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c46cc0e2afed3e3cb38fab8ed5e7a8076e34a9e7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c46cc0e2afed3e3cb38fab8ed5e7a8076e34a9e7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p746/googlejam1/p746/MM.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p746/googlejam1/p746/MM.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_77e344e191d8941bb9b1573e6f5cbc1b6eaf9f80",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_77e344e191d8941bb9b1573e6f5cbc1b6eaf9f80/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p750/googlejam1/p750/second.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p750/googlejam1/p750/second.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_888a90cfd5dd4c3d1290afdb18a9ad0229c8f722",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_888a90cfd5dd4c3d1290afdb18a9ad0229c8f722/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p752/googlejam1/p752/Monstor.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p752/googlejam1/p752/Monstor.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_62b7c8769f04748937cae38185f56d9795fb305c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_62b7c8769f04748937cae38185f56d9795fb305c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p762/googlejam1/p762/Round1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p762/googlejam1/p762/Round1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0bdc6055fd6b542c60475548039e358e222d40e9",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0bdc6055fd6b542c60475548039e358e222d40e9/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p764/googlejam1/p764/Solution.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p764/googlejam1/p764/Solution.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a1bba50bd47c29deeadc10411c7969dbfbaa762a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a1bba50bd47c29deeadc10411c7969dbfbaa762a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p768/googlejam1/p768/A1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p768/googlejam1/p768/A1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5c380cf7249fbc96f2269e4e457cef75634ca5ef",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5c380cf7249fbc96f2269e4e457cef75634ca5ef/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p769/googlejam1/p769/First.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p769/googlejam1/p769/First.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a39fe94793f5083e6817b83cc34c6b0550baa1d4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a39fe94793f5083e6817b83cc34c6b0550baa1d4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p772/googlejam1/p772/ProblemAMushroomMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p772/googlejam1/p772/ProblemAMushroomMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_13bc594b5082aa4059bda92b56aebef1f8a83b68",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_13bc594b5082aa4059bda92b56aebef1f8a83b68/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p773/googlejam1/p773/probA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p773/googlejam1/p773/probA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12dac1d821d39e6b6bf0266c57685c9b7825471f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12dac1d821d39e6b6bf0266c57685c9b7825471f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p781/googlejam1/p781/mushroommonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p781/googlejam1/p781/mushroommonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4fefab4a54809d9264b38db14744c8ee78abdfee",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4fefab4a54809d9264b38db14744c8ee78abdfee/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p790/googlejam1/p790/first1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p790/googlejam1/p790/first1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ead2303221c9dadd05c9924c3dbe953f443f986a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ead2303221c9dadd05c9924c3dbe953f443f986a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p800/googlejam1/p800/Mushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p800/googlejam1/p800/Mushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f5a4983c62dce30c27fb5c07320cc9933eb10f06",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f5a4983c62dce30c27fb5c07320cc9933eb10f06/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p801/googlejam1/p801/AMush.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p801/googlejam1/p801/AMush.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_24fe5fe684b871785f4a80eea1a3f08123f39cc4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_24fe5fe684b871785f4a80eea1a3f08123f39cc4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p803/googlejam1/p803/SolutionA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p803/googlejam1/p803/SolutionA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b467e6b3f3b0a02883133b18df33303f1510bc1a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b467e6b3f3b0a02883133b18df33303f1510bc1a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p811/googlejam1/p811/Main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p811/googlejam1/p811/Main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_02b52b37e69459509ec72f62ebffad8b4bb39142",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_02b52b37e69459509ec72f62ebffad8b4bb39142/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p818/googlejam1/p818/CodeJam2015.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p818/googlejam1/p818/CodeJam2015.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_364b59e3928e78903bbe65c8f5b7811ac609a6fd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_364b59e3928e78903bbe65c8f5b7811ac609a6fd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p820/googlejam1/p820/DoIt.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p820/googlejam1/p820/DoIt.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7052941a7bd8198e261a888ca5b62dfa621215f4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7052941a7bd8198e261a888ca5b62dfa621215f4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p821/googlejam1/p821/basic.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p821/googlejam1/p821/basic.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0cc69b16cd98aea7676363ff584386c0ca85fb25",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0cc69b16cd98aea7676363ff584386c0ca85fb25/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p826/googlejam1/p826/start.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p826/googlejam1/p826/start.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_41166b00f1fd0fdf5fa4e4df0c59c3d14159a5b3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_41166b00f1fd0fdf5fa4e4df0c59c3d14159a5b3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p830/googlejam1/p830/ProblemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p830/googlejam1/p830/ProblemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_43e807334327e5d4ca951c0e51fed941ab915798",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_43e807334327e5d4ca951c0e51fed941ab915798/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p836/googlejam1/p836/Solution19.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p836/googlejam1/p836/Solution19.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1bc4d4e872398fdad87c2d6c75bc00010b57fc75",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1bc4d4e872398fdad87c2d6c75bc00010b57fc75/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p837/googlejam1/p837/mushroom.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p837/googlejam1/p837/mushroom.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3e9d03e7ebb6a11b2b973fb9b100c85521617097",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3e9d03e7ebb6a11b2b973fb9b100c85521617097/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p839/googlejam1/p839/CodeJamA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p839/googlejam1/p839/CodeJamA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9ef7a59369d79131afe3a0284769af439793be41",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9ef7a59369d79131afe3a0284769af439793be41/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p840/googlejam1/p840/MushroomMonster.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p840/googlejam1/p840/MushroomMonster.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9453ed8b51d6f24e2472b9f3d4403ef404c886cb",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9453ed8b51d6f24e2472b9f3d4403ef404c886cb/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p841/googlejam1/p841/p1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p841/googlejam1/p841/p1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a9d84d5e4450b841ae52977423eeacb987abd58d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a9d84d5e4450b841ae52977423eeacb987abd58d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p843/googlejam1/p843/Mushrooms.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p843/googlejam1/p843/Mushrooms.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3ce732581a4de3f518aa65eb16f2f63dd8ab076b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3ce732581a4de3f518aa65eb16f2f63dd8ab076b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p846/googlejam1/p846/mush.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p846/googlejam1/p846/mush.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a05f59bb32adba68158fffc34da3859dfe271a54",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a05f59bb32adba68158fffc34da3859dfe271a54/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p849/googlejam1/p849/A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/1/p849/googlejam1/p849/A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6be304fdc334c03d79e7345b896c2338209ff6b6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6be304fdc334c03d79e7345b896c2338209ff6b6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p035/googlejam2/p035/Solution2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p035/googlejam2/p035/Solution2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7aa0d8b31a287961421baa010d3766e67dda9428",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7aa0d8b31a287961421baa010d3766e67dda9428/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p057/googlejam2/p057/CodeJam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p057/googlejam2/p057/CodeJam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_08631030563e3b23b0790c52270345a979c047a2",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_08631030563e3b23b0790c52270345a979c047a2/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p108/googlejam2/p108/a.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p108/googlejam2/p108/a.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c36c3177759fa4919470ac1861f2f4bbe8451612",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c36c3177759fa4919470ac1861f2f4bbe8451612/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p116/googlejam2/p116/countSmall.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p116/googlejam2/p116/countSmall.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e3bc2247fa01bf16ed1f04efae70f916604a7ee5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e3bc2247fa01bf16ed1f04efae70f916604a7ee5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p127/googlejam2/p127/Codejam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p127/googlejam2/p127/Codejam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2f5be690a6f65c299d99a02b9809e052f8b1d966",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2f5be690a6f65c299d99a02b9809e052f8b1d966/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p154/googlejam2/p154/R1BA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p154/googlejam2/p154/R1BA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_513219c4c8542b3b4c8a4bf29c737eada6ed41c0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_513219c4c8542b3b4c8a4bf29c737eada6ed41c0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p162/googlejam2/p162/BigCount.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p162/googlejam2/p162/BigCount.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2ccac568eefe3ce23858b9b29df6cf1fa35552d5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2ccac568eefe3ce23858b9b29df6cf1fa35552d5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p237/googlejam2/p237/Culture.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p237/googlejam2/p237/Culture.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b5c3e9def413952b057713d41a10af47823c2576",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b5c3e9def413952b057713d41a10af47823c2576/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p242/googlejam2/p242/Poetry.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p242/googlejam2/p242/Poetry.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_779328d28848a8d6b2c70a8e79c4b33fa4eaafd4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_779328d28848a8d6b2c70a8e79c4b33fa4eaafd4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p252/googlejam2/p252/ProblemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p252/googlejam2/p252/ProblemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e529b60e365b5a1dc8c0a35459837d2c8c719389",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e529b60e365b5a1dc8c0a35459837d2c8c719389/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p257/googlejam2/p257/A1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p257/googlejam2/p257/A1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4a541eb66d82290b63b8a10fd78850d7f8c13493",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4a541eb66d82290b63b8a10fd78850d7f8c13493/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p271/googlejam2/p271/Z1_12.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p271/googlejam2/p271/Z1_12.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_db88ca64df1948f1efacc0eb3958e35d3a91ccce",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_db88ca64df1948f1efacc0eb3958e35d3a91ccce/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p276/googlejam2/p276/P1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p276/googlejam2/p276/P1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d4d1991fe344decd4a4a163d1bcc69fd7164ff2c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d4d1991fe344decd4a4a163d1bcc69fd7164ff2c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p291/googlejam2/p291/d.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p291/googlejam2/p291/d.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_38ce25403da0e4652b637970619646b6fb7753c3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_38ce25403da0e4652b637970619646b6fb7753c3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p293/googlejam2/p293/CodeJamCounter.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p293/googlejam2/p293/CodeJamCounter.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_288a9d5fdd4dd8052e9ea89e0c5c27925441c6a9",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_288a9d5fdd4dd8052e9ea89e0c5c27925441c6a9/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p300/googlejam2/p300/CounterCultureSlow.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p300/googlejam2/p300/CounterCultureSlow.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c7aa03184f6d4eb8035f40c8fa85cc70d8cd1b86",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c7aa03184f6d4eb8035f40c8fa85cc70d8cd1b86/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p307/googlejam2/p307/p1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p307/googlejam2/p307/p1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dccc7f84f7d70870ceba0c53c0d33eccbefc7bcf",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dccc7f84f7d70870ceba0c53c0d33eccbefc7bcf/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p308/googlejam2/p308/GCJ2015A2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p308/googlejam2/p308/GCJ2015A2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_82e9b589d6049bcf7ed43a779f4e6fd69c384b57",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_82e9b589d6049bcf7ed43a779f4e6fd69c384b57/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p317/googlejam2/p317/Problem1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p317/googlejam2/p317/Problem1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_337eb61289da777d4641c084cb34532ff27cdb5b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_337eb61289da777d4641c084cb34532ff27cdb5b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p319/googlejam2/p319/CJ2015Round1BA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p319/googlejam2/p319/CJ2015Round1BA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7fd66ac6f4caeb5523497bca9f40a6cb0d1fb44f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_7fd66ac6f4caeb5523497bca9f40a6cb0d1fb44f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p325/googlejam2/p325/Jam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p325/googlejam2/p325/Jam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8fa83cf3c450cf4188214b676c20a21f05f1f43d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8fa83cf3c450cf4188214b676c20a21f05f1f43d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p334/googlejam2/p334/AA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p334/googlejam2/p334/AA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5faaa79f71b05fd03f88897dfae24a2b0185eb09",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5faaa79f71b05fd03f88897dfae24a2b0185eb09/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p342/googlejam2/p342/CounterCulture.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p342/googlejam2/p342/CounterCulture.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_78f9487be8fa7b798ac9b428a45c7107668b9716",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_78f9487be8fa7b798ac9b428a45c7107668b9716/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p346/googlejam2/p346/Cup2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p346/googlejam2/p346/Cup2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_597e934913b71dbf2dc04d984ede82506be9d0c0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_597e934913b71dbf2dc04d984ede82506be9d0c0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p347/googlejam2/p347/A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p347/googlejam2/p347/A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ba129809ee83518d1a409834f993f2f2a6351c78",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ba129809ee83518d1a409834f993f2f2a6351c78/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p359/googlejam2/p359/ASmall.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p359/googlejam2/p359/ASmall.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b0c3721f09505b36a114f46e44d76e3b3eb7b304",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b0c3721f09505b36a114f46e44d76e3b3eb7b304/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p368/googlejam2/p368/Round1BA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p368/googlejam2/p368/Round1BA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3f238c58db0d519bbf19194bb3e20870c5c35634",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3f238c58db0d519bbf19194bb3e20870c5c35634/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p373/googlejam2/p373/Main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p373/googlejam2/p373/Main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_711b52efe408426e5e22f7c1e9679bbc03ba2602",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_711b52efe408426e5e22f7c1e9679bbc03ba2602/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p374/googlejam2/p374/Test.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p374/googlejam2/p374/Test.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4aba46b248058e816312cbb9de3d32df2a8e62fc",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4aba46b248058e816312cbb9de3d32df2a8e62fc/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p376/googlejam2/p376/cult.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p376/googlejam2/p376/cult.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b98570ba5e05307029dab3277c31417dde981de6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b98570ba5e05307029dab3277c31417dde981de6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p382/googlejam2/p382/Codejam1BA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p382/googlejam2/p382/Codejam1BA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_487575be5184ea2f62b5f0fd85c4c3bf0d1577d6",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_487575be5184ea2f62b5f0fd85c4c3bf0d1577d6/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p386/googlejam2/p386/Counter.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/2/p386/googlejam2/p386/Counter.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e69322ba5ab9a57435f9c7184827e700d011245c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e69322ba5ab9a57435f9c7184827e700d011245c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p016/googlejam3/p016/codejam2015_1C_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p016/googlejam3/p016/codejam2015_1C_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_408e3c8f688f08bc4093a429b342c6c1b56cd79c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_408e3c8f688f08bc4093a429b342c6c1b56cd79c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p017/googlejam3/p017/SolutionA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p017/googlejam3/p017/SolutionA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1a3a3a4575d7d8a4e64b03ca0a87be68de941849",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1a3a3a4575d7d8a4e64b03ca0a87be68de941849/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p035/googlejam3/p035/CJ2015Round1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p035/googlejam3/p035/CJ2015Round1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5310eadc30390ad0855bf0aeb8421598b3be4570",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5310eadc30390ad0855bf0aeb8421598b3be4570/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p052/googlejam3/p052/A2015.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p052/googlejam3/p052/A2015.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cb630c0d525e967c251acc398ba727ae418ab4b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9cb630c0d525e967c251acc398ba727ae418ab4b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p082/googlejam3/p082/GcjA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p082/googlejam3/p082/GcjA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f7338fbbc5d8de99c4be7b5ec90f0ae27eb94979",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f7338fbbc5d8de99c4be7b5ec90f0ae27eb94979/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p085/googlejam3/p085/Codejam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p085/googlejam3/p085/Codejam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_36b23d3c833df9205174a4e5e5f967d07f497b2e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_36b23d3c833df9205174a4e5e5f967d07f497b2e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p098/googlejam3/p098/CRoundA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p098/googlejam3/p098/CRoundA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_26107003f8fa9f1e15fbc3964986c490817314d7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_26107003f8fa9f1e15fbc3964986c490817314d7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p124/googlejam3/p124/Q2A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p124/googlejam3/p124/Q2A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_19cf863cc4556c2584e79c191de94aaa49683b1b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_19cf863cc4556c2584e79c191de94aaa49683b1b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p144/googlejam3/p144/q1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p144/googlejam3/p144/q1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3b90a5ccaec954a864a1b31fcd8a0d739ac376f8",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3b90a5ccaec954a864a1b31fcd8a0d739ac376f8/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p147/googlejam3/p147/Solver.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p147/googlejam3/p147/Solver.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8f62d732466563dc6a1f32f7d3c03b4a7add821a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8f62d732466563dc6a1f32f7d3c03b4a7add821a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p161/googlejam3/p161/R1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p161/googlejam3/p161/R1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c187eeaa86320d4c1afbe316014b3ca38730514a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c187eeaa86320d4c1afbe316014b3ca38730514a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p162/googlejam3/p162/Brattleships.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p162/googlejam3/p162/Brattleships.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_93264bad3ddd649454478006f4dc1194d4935727",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_93264bad3ddd649454478006f4dc1194d4935727/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p182/googlejam3/p182/Task1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p182/googlejam3/p182/Task1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_77320c1b5409fc1235c130b80f8a6f9663bb2c2b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_77320c1b5409fc1235c130b80f8a6f9663bb2c2b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p184/googlejam3/p184/ASol.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p184/googlejam3/p184/ASol.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8c68a09c388c29b4e8fafb765fd2e312eb1fdaf8",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8c68a09c388c29b4e8fafb765fd2e312eb1fdaf8/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p186/googlejam3/p186/Round1CProblemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p186/googlejam3/p186/Round1CProblemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_54490f03655f1729e4ad3f32aaf7c9526ca973ca",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_54490f03655f1729e4ad3f32aaf7c9526ca973ca/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p188/googlejam3/p188/question1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p188/googlejam3/p188/question1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2bb10495337a3792106ba18890a90005cbfba045",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2bb10495337a3792106ba18890a90005cbfba045/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p197/googlejam3/p197/Main_Round1C_2015_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p197/googlejam3/p197/Main_Round1C_2015_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa6634fffc12b3aefa87c3af26dcfcd5efbcd207",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa6634fffc12b3aefa87c3af26dcfcd5efbcd207/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p199/googlejam3/p199/Sample.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p199/googlejam3/p199/Sample.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1905a222f473dc1617de3d03bea8a6e84397f06d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1905a222f473dc1617de3d03bea8a6e84397f06d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p206/googlejam3/p206/BS3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p206/googlejam3/p206/BS3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f5b0d193754e40da89d896437afc40a7f282141e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f5b0d193754e40da89d896437afc40a7f282141e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p210/googlejam3/p210/Problem1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p210/googlejam3/p210/Problem1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9fe937ab950a93d8be0677cd25c4cc5882f843dd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9fe937ab950a93d8be0677cd25c4cc5882f843dd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p221/googlejam3/p221/Q11.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p221/googlejam3/p221/Q11.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e76eb7a6f974cfeb11c1ee6e4ce13c0c052cea92",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e76eb7a6f974cfeb11c1ee6e4ce13c0c052cea92/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p230/googlejam3/p230/A2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p230/googlejam3/p230/A2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dbee331a643e0da6ff1a29aa64fa12d22b92287e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dbee331a643e0da6ff1a29aa64fa12d22b92287e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p234/googlejam3/p234/c1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p234/googlejam3/p234/c1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8e080137beb501f9d74b232e43d57b8b06513da0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8e080137beb501f9d74b232e43d57b8b06513da0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p238/googlejam3/p238/Ships.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p238/googlejam3/p238/Ships.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dbf7c8b6f4935d669252c51495910ed27b6177a9",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dbf7c8b6f4935d669252c51495910ed27b6177a9/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p241/googlejam3/p241/F.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p241/googlejam3/p241/F.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b2839630883ad964664c77edf2439fb335bad411",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b2839630883ad964664c77edf2439fb335bad411/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p248/googlejam3/p248/CJRC1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p248/googlejam3/p248/CJRC1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cff5132fd98cbb3ccf21e7a83be325553a3ae5a9",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cff5132fd98cbb3ccf21e7a83be325553a3ae5a9/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p267/googlejam3/p267/problemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p267/googlejam3/p267/problemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a5910a5681c9d150b228cbe00c595925abf75416",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a5910a5681c9d150b228cbe00c595925abf75416/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p273/googlejam3/p273/Problem1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p273/googlejam3/p273/Problem1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0856b5aff953cbea0753057e4c8be8c11663c8ac",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0856b5aff953cbea0753057e4c8be8c11663c8ac/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p278/googlejam3/p278/r11.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p278/googlejam3/p278/r11.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_15add258e7b15c807b759e223437934690d7cfb0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_15add258e7b15c807b759e223437934690d7cfb0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p280/googlejam3/p280/Q1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p280/googlejam3/p280/Q1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c14dce1d39c87da604f095cf56798a748a605fff",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c14dce1d39c87da604f095cf56798a748a605fff/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p283/googlejam3/p283/AL.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p283/googlejam3/p283/AL.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4d38dda62ae01483aa4e3c1e9adbdb01decf78d8",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4d38dda62ae01483aa4e3c1e9adbdb01decf78d8/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p295/googlejam3/p295/first.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p295/googlejam3/p295/first.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3eb44ebb38273588e28c90f9bd70c8ec2641edb2",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3eb44ebb38273588e28c90f9bd70c8ec2641edb2/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p296/googlejam3/p296/Codejam1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p296/googlejam3/p296/Codejam1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_aa6589653cf1436d6b3a9c4693ffd8ac2f80ac4e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_aa6589653cf1436d6b3a9c4693ffd8ac2f80ac4e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p303/googlejam3/p303/prblmA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p303/googlejam3/p303/prblmA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8f2f568a257a756f04e0715ed84550eabc7a233f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8f2f568a257a756f04e0715ed84550eabc7a233f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p307/googlejam3/p307/battleship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p307/googlejam3/p307/battleship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa53d34fd1ed146837d773f1c5997a3a3c91953b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_fa53d34fd1ed146837d773f1c5997a3a3c91953b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p311/googlejam3/p311/s.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p311/googlejam3/p311/s.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_03fe5277b6bf47a95e3fc4a2aeb321024eb81740",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_03fe5277b6bf47a95e3fc4a2aeb321024eb81740/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p319/googlejam3/p319/TaskA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p319/googlejam3/p319/TaskA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_82fc24443cd1a1cdbf8dd805b1a59802f213f1c5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_82fc24443cd1a1cdbf8dd805b1a59802f213f1c5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p326/googlejam3/p326/Solution.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p326/googlejam3/p326/Solution.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_341a8291ba84daa69f41049c8fb61d43ce1fa3d2",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_341a8291ba84daa69f41049c8fb61d43ce1fa3d2/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p339/googlejam3/p339/Counter.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p339/googlejam3/p339/Counter.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8b1e6428b6e1f1c028de312147520f9588f82969",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8b1e6428b6e1f1c028de312147520f9588f82969/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p340/googlejam3/p340/R20151C_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p340/googlejam3/p340/R20151C_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ee86e8028147b53053950905525cdd51e5a9bfd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ee86e8028147b53053950905525cdd51e5a9bfd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p344/googlejam3/p344/Pr1C1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p344/googlejam3/p344/Pr1C1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1e923715a13866b79e12bdadce12123a396c03fd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1e923715a13866b79e12bdadce12123a396c03fd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p347/googlejam3/p347/CodeJam_Round.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p347/googlejam3/p347/CodeJam_Round.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_eb66da5421fbf7f749eba18ae0513c9152a461af",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_eb66da5421fbf7f749eba18ae0513c9152a461af/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p348/googlejam3/p348/ca_2015.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p348/googlejam3/p348/ca_2015.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12d31661500ce3114db428b218a43fd8dfb5c023",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_12d31661500ce3114db428b218a43fd8dfb5c023/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p349/googlejam3/p349/CodeJam2015Round1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p349/googlejam3/p349/CodeJam2015Round1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4800f102e08cf475ea295f7e9ade5821fbf00f4c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4800f102e08cf475ea295f7e9ade5821fbf00f4c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p352/googlejam3/p352/roundCQ1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p352/googlejam3/p352/roundCQ1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d557d89bc60bb6292aac0b4cec0eb09b7302499e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_d557d89bc60bb6292aac0b4cec0eb09b7302499e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p377/googlejam3/p377/CaseE.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p377/googlejam3/p377/CaseE.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_733b31dd201736860481b584636f04e683e4e931",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_733b31dd201736860481b584636f04e683e4e931/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p379/googlejam3/p379/Happy.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p379/googlejam3/p379/Happy.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3c2b795544a4e3470b9405455d061060bf1593a1",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3c2b795544a4e3470b9405455d061060bf1593a1/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p380/googlejam3/p380/Problem1C_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p380/googlejam3/p380/Problem1C_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_15abd206eaa6c96ba8c5064263b0678bb1cce1d2",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_15abd206eaa6c96ba8c5064263b0678bb1cce1d2/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p389/googlejam3/p389/Battelship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p389/googlejam3/p389/Battelship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_47cdd0e4fb08c2ef5d2a9e10f057701c7de86c7d",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_47cdd0e4fb08c2ef5d2a9e10f057701c7de86c7d/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p391/googlejam3/p391/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p391/googlejam3/p391/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6fb00d2c46f3f5e5048fb6636e82c3578f472486",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6fb00d2c46f3f5e5048fb6636e82c3578f472486/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p396/googlejam3/p396/CodeJamBrattleship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p396/googlejam3/p396/CodeJamBrattleship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_27a726f5ab4c98b1b76500bc7b05d28cc9685ee4",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_27a726f5ab4c98b1b76500bc7b05d28cc9685ee4/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p401/googlejam3/p401/B.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p401/googlejam3/p401/B.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4b510002d7921b6c97bd59af9dc7a7adfeef1490",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_4b510002d7921b6c97bd59af9dc7a7adfeef1490/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p408/googlejam3/p408/Jam2015_1CA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p408/googlejam3/p408/Jam2015_1CA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ffc7f24431e5e6ef27bd091008b6165f8111390",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_6ffc7f24431e5e6ef27bd091008b6165f8111390/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p409/googlejam3/p409/Z1_1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p409/googlejam3/p409/Z1_1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_bdec15dd8dc69097d346c3a0fe4ccd4b42838e56",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_bdec15dd8dc69097d346c3a0fe4ccd4b42838e56/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p417/googlejam3/p417/BrattleShip.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p417/googlejam3/p417/BrattleShip.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0ad0e9bedbaf473ab03e393ee787a7ab1741a3c3",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0ad0e9bedbaf473ab03e393ee787a7ab1741a3c3/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p421/googlejam3/p421/p1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p421/googlejam3/p421/p1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34b69a0ef821d0f4788760dcaa2684962edf9f0c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34b69a0ef821d0f4788760dcaa2684962edf9f0c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p422/googlejam3/p422/Problem_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p422/googlejam3/p422/Problem_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_693c02b27058de507a19e7a5ae5269f131ab648a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_693c02b27058de507a19e7a5ae5269f131ab648a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p427/googlejam3/p427/cj_2015_R1C_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p427/googlejam3/p427/cj_2015_R1C_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_727f92f609fbbf2e3bfd411a14354e0208977c36",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_727f92f609fbbf2e3bfd411a14354e0208977c36/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p445/googlejam3/p445/R1C_A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p445/googlejam3/p445/R1C_A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9827aec352cad26e3efad2ac971c0e6c51692d9f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9827aec352cad26e3efad2ac971c0e6c51692d9f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p451/googlejam3/p451/MainClass.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p451/googlejam3/p451/MainClass.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3d7892f703d02323822e457576a0062f89c9a16e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3d7892f703d02323822e457576a0062f89c9a16e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p452/googlejam3/p452/CodeJamA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p452/googlejam3/p452/CodeJamA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_46576af3e60def7f00cee9e1b198d15244ebbffc",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_46576af3e60def7f00cee9e1b198d15244ebbffc/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p455/googlejam3/p455/onecq1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p455/googlejam3/p455/onecq1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a82013d1f4d67ecc830b0552fd7abcc52a14ff1a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a82013d1f4d67ecc830b0552fd7abcc52a14ff1a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p456/googlejam3/p456/CodeJam1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p456/googlejam3/p456/CodeJam1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2618ef7dde69601f5ee0a8b50cda226a6ad2cea7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2618ef7dde69601f5ee0a8b50cda226a6ad2cea7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p457/googlejam3/p457/R1CP1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p457/googlejam3/p457/R1CP1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dd9949181996befb8e907f002812e65bdfd0bf94",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dd9949181996befb8e907f002812e65bdfd0bf94/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p464/googlejam3/p464/hit.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p464/googlejam3/p464/hit.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34603bc49480959bc85a94396ec11b42ff19d5b0",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_34603bc49480959bc85a94396ec11b42ff19d5b0/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p479/googlejam3/p479/gcjround1C_1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p479/googlejam3/p479/gcjround1C_1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3c985af43dbca1aef2931962a9ae121bb0c5b2cb",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3c985af43dbca1aef2931962a9ae121bb0c5b2cb/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p482/googlejam3/p482/R1cA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p482/googlejam3/p482/R1cA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_54f90d209fc84ec3d10e379316100227312259cd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_54f90d209fc84ec3d10e379316100227312259cd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p492/googlejam3/p492/P1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p492/googlejam3/p492/P1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_18b9a1621a95081b63fbcd4a04ebc7e62c7f29e7",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_18b9a1621a95081b63fbcd4a04ebc7e62c7f29e7/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p500/googlejam3/p500/ProbA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p500/googlejam3/p500/ProbA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5b6949c29e8ab44c21cf534f46d9877162ee3a2c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5b6949c29e8ab44c21cf534f46d9877162ee3a2c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p501/googlejam3/p501/Battleship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p501/googlejam3/p501/Battleship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0315406653e16ec3a1cd0a72b2469ebbcdc5a342",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_0315406653e16ec3a1cd0a72b2469ebbcdc5a342/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p509/googlejam3/p509/_1A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p509/googlejam3/p509/_1A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_07d34227f962f698adbdc336e64f285b540f5b7e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_07d34227f962f698adbdc336e64f285b540f5b7e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p512/googlejam3/p512/ProblemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p512/googlejam3/p512/ProblemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_607ff4d22d3d179492802005f32828c7214ef819",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_607ff4d22d3d179492802005f32828c7214ef819/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p519/googlejam3/p519/CodeF.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p519/googlejam3/p519/CodeF.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cd3a0d6914aad8802e86afcd9e1f84f35fc9b741",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_cd3a0d6914aad8802e86afcd9e1f84f35fc9b741/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p520/googlejam3/p520/ASmall.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p520/googlejam3/p520/ASmall.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a42110ac55a31e82ad182dfbd56b0b1d5d51667c",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a42110ac55a31e82ad182dfbd56b0b1d5d51667c/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p526/googlejam3/p526/a.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p526/googlejam3/p526/a.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ac0d04bc8dd7e13b14193876b7458f6c927a3aa5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_ac0d04bc8dd7e13b14193876b7458f6c927a3aa5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p535/googlejam3/p535/ASecondThird.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p535/googlejam3/p535/ASecondThird.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3cdf6ea5289291a6228031e86e6911d6795a794f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_3cdf6ea5289291a6228031e86e6911d6795a794f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p541/googlejam3/p541/Prog.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p541/googlejam3/p541/Prog.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_98bae132d85d35099b04ab7ecfd5aeedb3ed71dd",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_98bae132d85d35099b04ab7ecfd5aeedb3ed71dd/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p544/googlejam3/p544/Main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p544/googlejam3/p544/Main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c11db7ceccc9fb2f2646471af2cb5961becabebc",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_c11db7ceccc9fb2f2646471af2cb5961becabebc/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p546/googlejam3/p546/Brattleship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p546/googlejam3/p546/Brattleship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_67cb297f3306269e19a65dcf37f0e2096a500245",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_67cb297f3306269e19a65dcf37f0e2096a500245/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p547/googlejam3/p547/A1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p547/googlejam3/p547/A1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_488bbd069850fabd094bd398124e5429604d23e5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_488bbd069850fabd094bd398124e5429604d23e5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p549/googlejam3/p549/A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p549/googlejam3/p549/A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1a5183bfb316a5f4c11c16b923be8d453ad37e15",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1a5183bfb316a5f4c11c16b923be8d453ad37e15/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p551/googlejam3/p551/Bratteship.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p551/googlejam3/p551/Bratteship.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2fbfa84c74e3b5c46fd336cea5fc9e1d9fea4d6a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_2fbfa84c74e3b5c46fd336cea5fc9e1d9fea4d6a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p554/googlejam3/p554/Q8.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p554/googlejam3/p554/Q8.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9901c0614aaa36ccf45f96d03c4a61ae2eb63a43",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9901c0614aaa36ccf45f96d03c4a61ae2eb63a43/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p555/googlejam3/p555/Problem1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p555/googlejam3/p555/Problem1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a8dedfc45d67face128d0d645b6cb4863c02f521",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_a8dedfc45d67face128d0d645b6cb4863c02f521/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p556/googlejam3/p556/jam3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p556/googlejam3/p556/jam3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8beb75efdef368e233ff32139523896fca815e8f",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8beb75efdef368e233ff32139523896fca815e8f/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p563/googlejam3/p563/Battle.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/3/p563/googlejam3/p563/Battle.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_11551032714b9a4eece89b6e63c716483b16ee2a",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_11551032714b9a4eece89b6e63c716483b16ee2a/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p053/googlejam4/p053/ProblemA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p053/googlejam4/p053/ProblemA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f63361cf48b9fbc54a5821722280da2914490c21",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_f63361cf48b9fbc54a5821722280da2914490c21/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p061/googlejam4/p061/Codejam.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p061/googlejam4/p061/Codejam.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5fbd2eb3461a736bde096219ec9d5cc2605a38d1",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_5fbd2eb3461a736bde096219ec9d5cc2605a38d1/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p071/googlejam4/p071/ProbA.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p071/googlejam4/p071/ProbA.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e20c1e61f69c6d3cc7050f18b99837ec86b70f21",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_e20c1e61f69c6d3cc7050f18b99837ec86b70f21/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p080/googlejam4/p080/R2A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p080/googlejam4/p080/R2A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1856b69d00a8a56da981238e240edf91e5ea62f1",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_1856b69d00a8a56da981238e240edf91e5ea62f1/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p099/googlejam4/p099/Gcj1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p099/googlejam4/p099/Gcj1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b6a8d3ec3ead84187f43c3d7b4cb3839073b1064",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_b6a8d3ec3ead84187f43c3d7b4cb3839073b1064/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p112/googlejam4/p112/a.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p112/googlejam4/p112/a.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_17fb1d4bfcb1ab2c0cb1a90507a9faa6dc2a88fb",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_17fb1d4bfcb1ab2c0cb1a90507a9faa6dc2a88fb/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p119/googlejam4/p119/A2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p119/googlejam4/p119/A2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dcdce20d501a39020add3e79b5a618bbfe02ff7e",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_dcdce20d501a39020add3e79b5a618bbfe02ff7e/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p129/googlejam4/p129/MainClass.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p129/googlejam4/p129/MainClass.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_de64579445570cda4d689d565d3bdde60302344b",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_de64579445570cda4d689d565d3bdde60302344b/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p138/googlejam4/p138/Main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p138/googlejam4/p138/Main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9c7ea454935439fe9cb8a9b33bd70602074c9be5",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_9c7ea454935439fe9cb8a9b33bd70602074c9be5/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p140/googlejam4/p140/P1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p140/googlejam4/p140/P1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_76c52e3c7241e821c8f0936792dc5504187d7e76",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_76c52e3c7241e821c8f0936792dc5504187d7e76/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p178/googlejam4/p178/Solution.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p178/googlejam4/p178/Solution.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_52fc2543e5c0759b97482f9058db79492723fd70",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_52fc2543e5c0759b97482f9058db79492723fd70/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p203/googlejam4/p203/Pegman.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p203/googlejam4/p203/Pegman.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_68af497e0538d40b3c9e677aee59a4f37a322668",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_68af497e0538d40b3c9e677aee59a4f37a322668/embed_cache/shards"
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p205/googlejam4/p205/A.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/gcj_compiled/4/p205/googlejam4/p205/A.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8cc9033e55357c9e9da13f3924e90ef62fc5a795",
+      "shards_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts_googlejam/prog_8cc9033e55357c9e9da13f3924e90ef62fc5a795/embed_cache/shards"
+    }
+  },
+  "failures": []
+}

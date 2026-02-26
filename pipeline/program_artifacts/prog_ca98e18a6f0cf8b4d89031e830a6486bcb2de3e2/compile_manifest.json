@@ -1,0 +1,12 @@
+{
+  "tool": "javac",
+  "success": true,
+  "stdout_tail": "\n",
+  "stderr_tail": "\n",
+  "class_dirs": [
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2/build/classes"
+  ],
+  "jars": [
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/program_artifacts/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2/build/program.jar"
+  ]
+}

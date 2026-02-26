@@ -1,0 +1,365 @@
+{
+  "items": {
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/01/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/01/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_2272a593bd02f1cf6efd342c60a306e0cbd5de27",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_2272a593bd02f1cf6efd342c60a306e0cbd5de27/decompiled/Calculator.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_2272a593bd02f1cf6efd342c60a306e0cbd5de27/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_2272a593bd02f1cf6efd342c60a306e0cbd5de27/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0c2917565c8968853b3697e0e9df2ba0dc93ffd4",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0c2917565c8968853b3697e0e9df2ba0dc93ffd4/decompiled/Calculator.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0c2917565c8968853b3697e0e9df2ba0dc93ffd4/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0c2917565c8968853b3697e0e9df2ba0dc93ffd4/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cf189a44706270db6060eed4ae026724e51c0f",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cf189a44706270db6060eed4ae026724e51c0f/decompiled/Calculator.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cf189a44706270db6060eed4ae026724e51c0f/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cf189a44706270db6060eed4ae026724e51c0f/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/01/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_460b13d9ac0a240c33054efdbccd3d27efcf5664",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_460b13d9ac0a240c33054efdbccd3d27efcf5664/decompiled/Calculator.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_460b13d9ac0a240c33054efdbccd3d27efcf5664/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_460b13d9ac0a240c33054efdbccd3d27efcf5664/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/02/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/02/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_09d60645ea75451fdffb0f0c53366a36f287e3d7",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_09d60645ea75451fdffb0f0c53366a36f287e3d7/decompiled/ToDoList.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_09d60645ea75451fdffb0f0c53366a36f287e3d7/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_09d60645ea75451fdffb0f0c53366a36f287e3d7/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_82c34983dac9eaba7a651972fd1aefd7e85a33cd",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_82c34983dac9eaba7a651972fd1aefd7e85a33cd/decompiled/AdvancedToDo.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_82c34983dac9eaba7a651972fd1aefd7e85a33cd/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_82c34983dac9eaba7a651972fd1aefd7e85a33cd/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0cac09f585f1845c6b363032e6b39d875bb3c798",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0cac09f585f1845c6b363032e6b39d875bb3c798/decompiled/MultiTaskManager.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0cac09f585f1845c6b363032e6b39d875bb3c798/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0cac09f585f1845c6b363032e6b39d875bb3c798/embed_shard.pt",
+      "num_methods": 7,
+      "num_method_records": 7
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/02/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ef2544251620ae89c216459658e0d18c30054523",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ef2544251620ae89c216459658e0d18c30054523/decompiled/TaskHelper.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ef2544251620ae89c216459658e0d18c30054523/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ef2544251620ae89c216459658e0d18c30054523/embed_shard.pt",
+      "num_methods": 1,
+      "num_method_records": 1
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/03/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/03/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_be9847264e6db722baf41d516b3fa7715f2c2701",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_be9847264e6db722baf41d516b3fa7715f2c2701/decompiled/TemperatureConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_be9847264e6db722baf41d516b3fa7715f2c2701/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_be9847264e6db722baf41d516b3fa7715f2c2701/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1bbf3f68852e64f645e50a2335a03cb57f72190f",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1bbf3f68852e64f645e50a2335a03cb57f72190f/decompiled/AdvancedTemperatureConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1bbf3f68852e64f645e50a2335a03cb57f72190f/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1bbf3f68852e64f645e50a2335a03cb57f72190f/embed_shard.pt",
+      "num_methods": 7,
+      "num_method_records": 7
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6eb32d77134560e680dc7b654c5ed0a5ac874f5b",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6eb32d77134560e680dc7b654c5ed0a5ac874f5b/decompiled/KelvinConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6eb32d77134560e680dc7b654c5ed0a5ac874f5b/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6eb32d77134560e680dc7b654c5ed0a5ac874f5b/embed_shard.pt",
+      "num_methods": 2,
+      "num_method_records": 2
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/03/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_dd101a3f1f55ccd9982dd4a07a423cbd60613ac7",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_dd101a3f1f55ccd9982dd4a07a423cbd60613ac7/decompiled/MultiTempConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_dd101a3f1f55ccd9982dd4a07a423cbd60613ac7/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_dd101a3f1f55ccd9982dd4a07a423cbd60613ac7/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/04/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/04/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_06f379934e32988a605d226108125d35005ea6e6",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_06f379934e32988a605d226108125d35005ea6e6/decompiled/PalindromeChecker.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_06f379934e32988a605d226108125d35005ea6e6/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_06f379934e32988a605d226108125d35005ea6e6/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_23eb61e5e2b1d751866e762d49e8b5baba713b7b",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_23eb61e5e2b1d751866e762d49e8b5baba713b7b/decompiled/AdvancedPalindromeChecker.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_23eb61e5e2b1d751866e762d49e8b5baba713b7b/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_23eb61e5e2b1d751866e762d49e8b5baba713b7b/embed_shard.pt",
+      "num_methods": 4,
+      "num_method_records": 4
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_3d9495be5f4afbf0a88ef413dbfc8dfeba4585df",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_3d9495be5f4afbf0a88ef413dbfc8dfeba4585df/decompiled/PalindromeService.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_3d9495be5f4afbf0a88ef413dbfc8dfeba4585df/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_3d9495be5f4afbf0a88ef413dbfc8dfeba4585df/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/04/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_9d5fa304af526bb72074ab2ed2d078ef26a3cb6a",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_9d5fa304af526bb72074ab2ed2d078ef26a3cb6a/decompiled/NumberPalindromeManager.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_9d5fa304af526bb72074ab2ed2d078ef26a3cb6a/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_9d5fa304af526bb72074ab2ed2d078ef26a3cb6a/embed_shard.pt",
+      "num_methods": 4,
+      "num_method_records": 4
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/05/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/05/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_7a103d3a8c0116c4176f19cd7a1855ff01f3c2e3",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_7a103d3a8c0116c4176f19cd7a1855ff01f3c2e3/decompiled/BankAccount.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_7a103d3a8c0116c4176f19cd7a1855ff01f3c2e3/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_7a103d3a8c0116c4176f19cd7a1855ff01f3c2e3/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_68f0e6109f8bdad93c478cacd1f0715d1307336b",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_68f0e6109f8bdad93c478cacd1f0715d1307336b/decompiled/SecureBankAccount.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_68f0e6109f8bdad93c478cacd1f0715d1307336b/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_68f0e6109f8bdad93c478cacd1f0715d1307336b/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_56c5b3a958130b19bc626c976f8863be3f908ed5",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_56c5b3a958130b19bc626c976f8863be3f908ed5/decompiled/AccountCore.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_56c5b3a958130b19bc626c976f8863be3f908ed5/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_56c5b3a958130b19bc626c976f8863be3f908ed5/embed_shard.pt",
+      "num_methods": 4,
+      "num_method_records": 4
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/05/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_37c11104e1a66122ace7a68139757cded10c558e",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_37c11104e1a66122ace7a68139757cded10c558e/decompiled/AccountManager.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_37c11104e1a66122ace7a68139757cded10c558e/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_37c11104e1a66122ace7a68139757cded10c558e/embed_shard.pt",
+      "num_methods": 5,
+      "num_method_records": 5
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/06/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/06/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1e47749ea65fa936a862ee393cabdecc7f02da11",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1e47749ea65fa936a862ee393cabdecc7f02da11/decompiled/NumberGuessingGame.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1e47749ea65fa936a862ee393cabdecc7f02da11/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1e47749ea65fa936a862ee393cabdecc7f02da11/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0f4e3dea2c85f4240190cba86e7830c70c71e287",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0f4e3dea2c85f4240190cba86e7830c70c71e287/decompiled/SmartGuessGame.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0f4e3dea2c85f4240190cba86e7830c70c71e287/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0f4e3dea2c85f4240190cba86e7830c70c71e287/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_fd212886a4e7e028d1df302441b2bab66dced470",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_fd212886a4e7e028d1df302441b2bab66dced470/decompiled/GuessController.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_fd212886a4e7e028d1df302441b2bab66dced470/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_fd212886a4e7e028d1df302441b2bab66dced470/embed_shard.pt",
+      "num_methods": 2,
+      "num_method_records": 2
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/06/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_cbde40fcc52c5f3540f86f108fbf6a5da7fa7a6b",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_cbde40fcc52c5f3540f86f108fbf6a5da7fa7a6b/decompiled/GuessSession.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_cbde40fcc52c5f3540f86f108fbf6a5da7fa7a6b/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_cbde40fcc52c5f3540f86f108fbf6a5da7fa7a6b/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/07/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/07/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_a090184d71358207adbd988821f72c42c2b51bf3",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_a090184d71358207adbd988821f72c42c2b51bf3/decompiled/TicTacToe.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_a090184d71358207adbd988821f72c42c2b51bf3/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_a090184d71358207adbd988821f72c42c2b51bf3/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_764b1690fc1ea20b08bf8b0fb85d65b5919d953e",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_764b1690fc1ea20b08bf8b0fb85d65b5919d953e/decompiled/AdvancedTicTacToe.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_764b1690fc1ea20b08bf8b0fb85d65b5919d953e/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_764b1690fc1ea20b08bf8b0fb85d65b5919d953e/embed_shard.pt",
+      "num_methods": 5,
+      "num_method_records": 5
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6d464d586c84ba165edf363bd773a85b10ec491c",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6d464d586c84ba165edf363bd773a85b10ec491c/decompiled/BoardHelper.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6d464d586c84ba165edf363bd773a85b10ec491c/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_6d464d586c84ba165edf363bd773a85b10ec491c/embed_shard.pt",
+      "num_methods": 1,
+      "num_method_records": 1
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/07/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_e00c125c2750d6837e226a7c49b44e202e354590",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_e00c125c2750d6837e226a7c49b44e202e354590/decompiled/GameSession.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_e00c125c2750d6837e226a7c49b44e202e354590/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_e00c125c2750d6837e226a7c49b44e202e354590/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/08/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/08/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_740675dfd696baefd81c0ceeb32726886ba19304",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_740675dfd696baefd81c0ceeb32726886ba19304/decompiled/UnitConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_740675dfd696baefd81c0ceeb32726886ba19304/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_740675dfd696baefd81c0ceeb32726886ba19304/embed_shard.pt",
+      "num_methods": 6,
+      "num_method_records": 6
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_af9fae51cc5976bdac930a5a1273ca656919aec4",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_af9fae51cc5976bdac930a5a1273ca656919aec4/decompiled/AdvancedUnitConverter.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_af9fae51cc5976bdac930a5a1273ca656919aec4/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_af9fae51cc5976bdac930a5a1273ca656919aec4/embed_shard.pt",
+      "num_methods": 7,
+      "num_method_records": 7
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_d7846636fedf34d58bbbbb15e3216b76e5fb5eaa",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_d7846636fedf34d58bbbbb15e3216b76e5fb5eaa/decompiled/ConversionSession.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_d7846636fedf34d58bbbbb15e3216b76e5fb5eaa/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_d7846636fedf34d58bbbbb15e3216b76e5fb5eaa/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/08/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1dc7619bf78d403fbda8658f5ebbdc88fa7d9425",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1dc7619bf78d403fbda8658f5ebbdc88fa7d9425/decompiled/ScaleHelper.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1dc7619bf78d403fbda8658f5ebbdc88fa7d9425/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_1dc7619bf78d403fbda8658f5ebbdc88fa7d9425/embed_shard.pt",
+      "num_methods": 2,
+      "num_method_records": 2
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/09/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/09/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c3af9c1f471a4b8f0f12e76cb9b3f76c69faaaa6",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c3af9c1f471a4b8f0f12e76cb9b3f76c69faaaa6/decompiled/SimpleChatbot.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c3af9c1f471a4b8f0f12e76cb9b3f76c69faaaa6/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c3af9c1f471a4b8f0f12e76cb9b3f76c69faaaa6/embed_shard.pt",
+      "num_methods": 2,
+      "num_method_records": 2
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0915efaff15d2f5986e3200be49b1a909e25ed13",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0915efaff15d2f5986e3200be49b1a909e25ed13/decompiled/SmartChatbot.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0915efaff15d2f5986e3200be49b1a909e25ed13/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0915efaff15d2f5986e3200be49b1a909e25ed13/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ffde113bd7dc44ee72247e32ed57725d67434a8f",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ffde113bd7dc44ee72247e32ed57725d67434a8f/decompiled/ChatController.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ffde113bd7dc44ee72247e32ed57725d67434a8f/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ffde113bd7dc44ee72247e32ed57725d67434a8f/embed_shard.pt",
+      "num_methods": 2,
+      "num_method_records": 2
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/09/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0a9fcc6bcfedc979278a99df636ee3b993b56b26",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0a9fcc6bcfedc979278a99df636ee3b993b56b26/decompiled/DialogueSession.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0a9fcc6bcfedc979278a99df636ee3b993b56b26/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_0a9fcc6bcfedc979278a99df636ee3b993b56b26/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/10/main.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/base/10/main.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cb27faf0a071d4b41765621256c753d720d816",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cb27faf0a071d4b41765621256c753d720d816/decompiled/QuizGame.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cb27faf0a071d4b41765621256c753d720d816/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_f5cb27faf0a071d4b41765621256c753d720d816/embed_shard.pt",
+      "num_methods": 4,
+      "num_method_records": 4
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/1.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/1.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c8cee9f7942978e04ed0e16d038897cb75b454e0",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c8cee9f7942978e04ed0e16d038897cb75b454e0/decompiled/AdvancedQuizGame.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c8cee9f7942978e04ed0e16d038897cb75b454e0/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_c8cee9f7942978e04ed0e16d038897cb75b454e0/embed_shard.pt",
+      "num_methods": 4,
+      "num_method_records": 4
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/2.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/2.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_57e337538b508b4acef272826db4b99333b6ef3a",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_57e337538b508b4acef272826db4b99333b6ef3a/decompiled/AnswerChecker.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_57e337538b508b4acef272826db4b99333b6ef3a/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_57e337538b508b4acef272826db4b99333b6ef3a/embed_shard.pt",
+      "num_methods": 1,
+      "num_method_records": 1
+    },
+    "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/3.java": {
+      "source_path": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/data/code-clone-dataset/dataset/type-3/10/3.java",
+      "artifact_dir": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2",
+      "java_for_graph": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2/decompiled/QuizSession.java",
+      "methods_jsonl": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2/methods.jsonl",
+      "embed_shard": "/Users/jonas/Documents/NTNU/Bachelor/code-model-embeddings/pipeline/nb_program_artifacts_type3/prog_ca98e18a6f0cf8b4d89031e830a6486bcb2de3e2/embed_shard.pt",
+      "num_methods": 3,
+      "num_method_records": 3
+    }
+  },
+  "failures": []
+}
