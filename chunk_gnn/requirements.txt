@@ -1,0 +1,21 @@
+# Chunk-GNN MVP — additional dependencies beyond dataset_loader's requirements.txt
+# Install with: pip install -r requirements.txt
+
+# Tree-sitter for Java parsing and chunking
+tree-sitter>=0.21.0
+tree-sitter-java>=0.21.0
+
+# PyTorch Geometric for GNN layers and graph batching
+torch-geometric>=2.5.0
+
+# HuggingFace for UniXcoder embeddings
+transformers>=4.30.0
+
+# Efficient storage for pre-computed embeddings
+h5py>=3.9.0
+
+# Metrics
+scikit-learn>=1.3.0
+
+# Already in parent requirements.txt but listed for completeness:
+# torch, numpy, datasets
