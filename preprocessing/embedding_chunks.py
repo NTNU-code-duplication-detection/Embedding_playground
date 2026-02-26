@@ -6,38 +6,60 @@ import javalang
 from preprocessing.block_splitter import build_block_subtrees, SyntheticBlock
 from preprocessing.ast_utils import clean_ast_node
 from preprocessing.parser import parse_java
+from typing import List, Tuple, Any
 
-def get_ready_to_embed_chunks(java_code: str):
+def get_ready_to_embed_chunks(java_code: str) -> List[Tuple[str, str, Any]]:
     """
-    Splits java code into smaller chunks
+    Splits java code into smaller chunks suitable for embeddings.
+    
+    Returns a list of tuples:
+        (method_name, code_chunk, ast_chunk)
 
-    Returns (method name, code chunk, ast chunk)
+    If parsing fails, returns an empty list and logs the issue.
     """
     chunks = []
     lines = java_code.splitlines()
 
-    tree = parse_java(java_code)
+    try:
+        # Attempt to parse Java code
+        tree = parse_java(java_code)
 
-    for _, method_decl in tree.filter(javalang.tree.MethodDeclaration):
-        method_name = method_decl.name
-        blocks = build_block_subtrees(method_decl)
+        for _, method_decl in tree.filter(javalang.tree.MethodDeclaration):
+            method_name = method_decl.name
+            blocks = build_block_subtrees(method_decl)
 
-        for block in blocks:
-            ast_chunk = clean_ast_node(block)
+            for block in blocks:
+                ast_chunk = clean_ast_node(block)
 
-            if isinstance(block, SyntheticBlock):
-                code_lines = []
-                for stmt in block.statements:
-                    if stmt.position:
-                        code_lines.append(lines[stmt.position.line - 1])
-                code_chunk = "\n".join(code_lines)
+                if isinstance(block, SyntheticBlock):
+                    code_lines = []
+                    for stmt in block.statements:
+                        if stmt.position:
+                            # Line numbers are 1-based
+                            code_lines.append(lines[stmt.position.line - 1])
+                    code_chunk = "\n".join(code_lines)
 
-            elif block.position:
-                code_chunk = lines[block.position.line - 1]
+                elif block.position:
+                    code_chunk = lines[block.position.line - 1]
 
-            else:
-                code_chunk = ""
+                else:
+                    code_chunk = ""
 
-            chunks.append((method_name, code_chunk, ast_chunk))
+                chunks.append((method_name, code_chunk, ast_chunk))
+
+    except javalang.tokenizer.LexerError as e:
+        # Java code contains illegal escapes or similar lexer issues
+        print(f"[SKIP] LexerError: {e}")
+        return []  # Meaningful empty result
+
+    except javalang.parser.JavaSyntaxError as e:
+        # Java parser failed
+        print(f"[SKIP] JavaSyntaxError: {e}")
+        return []
+
+    except Exception as e:
+        # Catch-all for unexpected errors
+        print(f"[SKIP] Unexpected error: {type(e).__name__} - {e}")
+        return []
 
     return chunks

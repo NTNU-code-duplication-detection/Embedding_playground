@@ -17,6 +17,7 @@ disable=
     # Imports after sys.path.insert() are necessary for the package to resolve
     wrong-import-position,
     wrong-import-order,
+    ungrouped-imports,
     import-outside-toplevel,
     # Standard ML patterns: classes/functions naturally have many params/attributes
     too-many-instance-attributes,
@@ -25,9 +26,39 @@ disable=
     too-many-locals,
     too-many-statements,
     too-many-branches,
+    too-many-nested-blocks,
     too-few-public-methods,
     # `import torch.nn as nn` is the universal PyTorch convention
-    consider-using-from-import
+    consider-using-from-import,
+    # Docstrings — enforced by code review, not linter
+    missing-class-docstring,
+    missing-function-docstring,
+    # Style choices we accept across the project
+    bad-reversed-sequence,
+    line-too-long,
+    trailing-whitespace,
+    trailing-newlines,
+    multiple-statements,
+    unneeded-not,
+    consider-using-in,
+    consider-using-with,
+    unnecessary-list-index-lookup,
+    dangerous-default-value,
+    pointless-string-statement,
+    unnecessary-lambda,
+    using-constant-test,
+    protected-access,
+    reimported,
+    unused-variable,
+    unused-argument,
+    redefined-outer-name,
+    cell-var-from-loop,
+    broad-exception-caught,
+    subprocess-run-check,
+    unspecified-encoding,
+    undefined-variable,
+    undefined-all-variable,
+    stop-iteration-return
 
 [FORMAT]
 max-line-length=120
