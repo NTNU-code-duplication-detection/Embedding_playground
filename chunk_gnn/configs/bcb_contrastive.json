@@ -1,0 +1,56 @@
+{
+    "_notes": "Experiment B: CosineContrastiveLoss with hinge margins at +/-0.25 centered on t=0. Higher LR and longer patience to accommodate sparser gradients.",
+
+    "data": {
+        "bcb_root": "data/data_source/dataset_bigclonebench",
+        "clone_labels": "clone_labels.txt",
+        "dataset_files": "dataset_files",
+        "skip_functions": ["37044", "4892654", "6966398", "7550876"]
+    },
+    "embedding": {
+        "model_name": "microsoft/unixcoder-base",
+        "embedding_dim": 768,
+        "max_tokens": 512,
+        "batch_size": 32
+    },
+    "graph": {
+        "edge_types": ["sequential", "parent_child"],
+        "self_loops": true
+    },
+    "model": {
+        "gnn_hidden_dim": 256,
+        "gnn_output_dim": 128,
+        "gnn_layers": 2,
+        "gnn_type": "GCNConv [INFO]",
+        "pooling": "global_mean_pool [INFO]",
+        "dropout": 0.1,
+        "input_projection": true,
+        "residual": false,
+        "l2_normalize": true
+    },
+    "training": {
+        "epochs": 30,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "weight_decay": 1e-4,
+        "loss": "contrastive",
+        "margin_pos": 0.25,
+        "margin_neg": -0.25,
+        "label_positive": 1.0,
+        "label_negative": -1.0,
+        "save_epoch_interval": 1,
+        "eval_epoch_interval": 1,
+        "log_batch_interval": 100,
+        "seed": 42,
+        "scheduler": "reduce_on_plateau",
+        "scheduler_patience": 5,
+        "scheduler_factor": 0.5,
+        "scheduler_min_lr": 1e-6,
+        "early_stop_patience": 10
+    },
+    "evaluation": {
+        "threshold_sweep": true,
+        "threshold_range": [-1.0, 1.0],
+        "threshold_steps": 200
+    }
+}
