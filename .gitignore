@@ -4,3 +4,45 @@ data/sourcecodeplagiarismdataset/IR-Plag-Dataset/
 *__pycache__
 .venv
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model outputs
+gnn_models_program/
+models/
+
+# ===== PIPELINE ARTIFACTS (IMPORTANT) =====
+program_artifacts/
+program_artifacts_googlejam/
+pipeline/program_artifacts/
+pipeline/program_artifacts_googlejam/
+
+# embedding + AST caches
+embed_cache/
+shards/
+ast_cache/
+aug_cache_gcj/
+
+# decompiler/compile temp
+build/
+classes/
+*.class
+*.jar
+
+# dataset derived outputs
+gcj_compiled/
+pipeline/node_cache/
+pipeline/nb_program_artifacts_*/
