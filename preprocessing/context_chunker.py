@@ -239,3 +239,28 @@ def get_ready_to_embed_context_chunks(java_code, max_tokens=480,
         tokenizer=tokenizer,
     )
     return [(c.method_name, c.code, c.ast_dict) for c in chunks]
+
+
+def safe_get_ready_to_embed_context_chunks(java_code, max_tokens=480,
+                                           context_lines=2, tokenizer=None):
+    """
+    Drop-in replacement for ``get_ready_to_embed_chunks``.
+
+    Returns
+    -------
+    list[tuple[str, str, dict]]
+        Each tuple is ``(method_name, code_string, ast_dict)``.
+    """
+    try:
+        return get_ready_to_embed_context_chunks(java_code, max_tokens,# pylint: disable=(too-many-function-args)
+                                                 context_lines, tokenizer)
+    except javalang.tokenizer.LexerError as e:
+        print(f"[SKIP] LexerError in context chunking: {e}")
+        return []
+    except javalang.parser.JavaSyntaxError as e:
+        print(f"[SKIP] JavaSyntaxError in context chunking: {e}")
+        return []
+
+    except Exception as e:# pylint: disable=(broad-exception-caught)
+        print(f"[SKIP] Unexpected error in context chunking: {type(e).__name__} - {e}")
+        return []
