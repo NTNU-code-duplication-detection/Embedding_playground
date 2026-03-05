@@ -476,6 +476,49 @@ def cosine_eval_pairs(
     }
 
 
+def collect_pair_scores(
+    model: ProgramCloneModel,
+    store: ProgramStore,
+    pairs: list[Pair],
+    device: str,
+    model_cfg: ModelConfig,
+) -> dict[str, list[float]]:
+    """Collect raw per-pair scores for downstream analysis (ROC/DET/distributions)."""
+
+    model.eval()
+    y_true: list[float] = []
+    y_score: list[float] = []
+    y_cosine: list[float] = []
+    y_logit: list[float] = []
+
+    with torch.no_grad():
+        for a, b, label in pairs:
+            methods_a = store.load_program_methods(a)
+            methods_b = store.load_program_methods(b)
+            if methods_a is None or methods_b is None:
+                continue
+
+            logit, cosine, score = pair_scores(
+                model=model,
+                methods_a=methods_a,
+                methods_b=methods_b,
+                device=device,
+                loss_type=model_cfg.loss_type,
+            )
+
+            y_true.append(float(label))
+            y_score.append(float(score.item()))
+            y_cosine.append(float(cosine.item()))
+            y_logit.append(float(logit.item()))
+
+    return {
+        "y_true": y_true,
+        "y_score": y_score,
+        "y_cosine": y_cosine,
+        "y_logit": y_logit,
+    }
+
+
 def save_training_artifacts(
     model: ProgramCloneModel,
     history: list[dict[str, float]],

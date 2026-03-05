@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from typing import Iterable
 
 import numpy as np
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
+from sklearn.metrics import accuracy_score, det_curve, f1_score, precision_score, recall_score, roc_auc_score
 
 
 @dataclass
@@ -115,4 +115,59 @@ def uncertainty_summary(prob_matrix: np.ndarray) -> dict[str, float]:
         "median_pred_std": float(np.median(std_prob)),
         "mean_entropy": float(np.mean(entropy)),
         "max_pred_std": float(np.max(std_prob)),
+    }
+
+
+def _eer_from_scores(y_true: np.ndarray, y_score: np.ndarray) -> tuple[float, float]:
+    """Compute Equal Error Rate (EER) and threshold from score distributions."""
+
+    fpr, fnr, thresholds = det_curve(y_true, y_score)
+    idx = int(np.argmin(np.abs(fpr - fnr)))
+    eer = float((fpr[idx] + fnr[idx]) / 2.0)
+    thr = float(thresholds[idx])
+    return eer, thr
+
+
+def detection_theory_summary(y_true: Iterable[int], y_score: Iterable[float]) -> dict[str, float]:
+    """Detection-theory style summary for clone vs non-clone score distributions."""
+
+    y_true_arr = np.asarray(list(y_true), dtype=np.int64)
+    y_score_arr = np.asarray(list(y_score), dtype=np.float32)
+
+    pos = y_score_arr[y_true_arr == 1]
+    neg = y_score_arr[y_true_arr == 0]
+    if len(pos) == 0 or len(neg) == 0:
+        return {
+            "pos_mean": float("nan"),
+            "neg_mean": float("nan"),
+            "pos_std": float("nan"),
+            "neg_std": float("nan"),
+            "score_gap": float("nan"),
+            "d_prime": float("nan"),
+            "auc": float("nan"),
+            "eer": float("nan"),
+            "eer_threshold": float("nan"),
+        }
+
+    pos_mean = float(np.mean(pos))
+    neg_mean = float(np.mean(neg))
+    pos_std = float(np.std(pos))
+    neg_std = float(np.std(neg))
+    pooled_std = float(np.sqrt(max(1e-12, 0.5 * (pos_std**2 + neg_std**2))))
+    d_prime = float((pos_mean - neg_mean) / pooled_std)
+    score_gap = float(pos_mean - neg_mean)
+
+    auc = float(roc_auc_score(y_true_arr, y_score_arr)) if len(np.unique(y_true_arr)) > 1 else float("nan")
+    eer, eer_threshold = _eer_from_scores(y_true_arr, y_score_arr)
+
+    return {
+        "pos_mean": pos_mean,
+        "neg_mean": neg_mean,
+        "pos_std": pos_std,
+        "neg_std": neg_std,
+        "score_gap": score_gap,
+        "d_prime": d_prime,
+        "auc": auc,
+        "eer": eer,
+        "eer_threshold": eer_threshold,
     }

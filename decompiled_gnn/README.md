@@ -10,6 +10,7 @@ Modular end-to-end pipeline for clone detection on decompiled Java code:
 5. Program-level GNN + MLP head training with configurable BCE or contrastive loss.
 6. Validation/test metrics, cosine-similarity evaluation, and MC-dropout uncertainty.
 7. Plot utilities for loss/AUC/F1/recall/accuracy trends.
+8. Detection-theory diagnostics (clone/non-clone score distributions, DET curve, EER, d-prime).
 
 ## Main Files
 
