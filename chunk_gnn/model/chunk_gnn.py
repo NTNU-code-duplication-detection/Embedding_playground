@@ -15,7 +15,7 @@ Architecture:
     -> [Optional] Learned input projection (768 -> hidden_dim)
     -> GNN layers (hidden -> hidden) with optional residual connections
     -> ReLU + Dropout after each layer
-    -> Global mean pool over all nodes
+    -> Pooling: global mean pool (default) or attention pooling (learned node importance)
     -> Linear projection to output dim (128)
     -> [Optional] L2 normalization
 """
@@ -25,11 +25,13 @@ from __future__ import annotations
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv, GATConv, global_mean_pool
+from torch_geometric.nn import GCNConv, GATConv, RGCNConv, global_mean_pool
+from torch_geometric.nn.aggr import AttentionalAggregation
 
 
 def _make_conv(
-    gnn_type: str, in_dim: int, out_dim: int, heads: int = 4,
+    gnn_type: str, in_dim: int, out_dim: int,
+    heads: int = 4, num_relations: int = 3,
 ) -> nn.Module:
     """Create a single GNN convolution layer."""
     if gnn_type == "GCNConv":
@@ -42,7 +44,12 @@ def _make_conv(
         )
         per_head = out_dim // heads
         return GATConv(in_dim, per_head, heads=heads, concat=True)
-    raise ValueError(f"Unknown gnn_type: {gnn_type!r}. Use 'GCNConv' or 'GATConv'.")
+    if gnn_type == "RGCNConv":
+        # Separate weight matrices per edge type (self-loop, sequential, parent-child)
+        return RGCNConv(in_dim, out_dim, num_relations=num_relations)
+    raise ValueError(
+        f"Unknown gnn_type: {gnn_type!r}. Use 'GCNConv', 'GATConv', or 'RGCNConv'."
+    )
 
 
 class ChunkGNNEncoder(nn.Module):
@@ -60,11 +67,14 @@ class ChunkGNNEncoder(nn.Module):
         l2_normalize: bool = False,
         gnn_type: str = "GCNConv",
         num_heads: int = 4,
+        num_relations: int = 3,
+        pooling: str = "global_mean_pool",
     ):
         super().__init__()
 
         self.residual = residual
         self.l2_normalize = l2_normalize
+        self.uses_edge_type = (gnn_type == "RGCNConv")
 
         # Optional learned projection from UniXcoder space to GNN space
         if input_projection:
@@ -78,9 +88,9 @@ class ChunkGNNEncoder(nn.Module):
             gnn_in_dim = in_dim
 
         self.convs = nn.ModuleList()
-        self.convs.append(_make_conv(gnn_type, gnn_in_dim, hidden_dim, num_heads))
+        self.convs.append(_make_conv(gnn_type, gnn_in_dim, hidden_dim, num_heads, num_relations))
         for _ in range(num_layers - 1):
-            self.convs.append(_make_conv(gnn_type, hidden_dim, hidden_dim, num_heads))
+            self.convs.append(_make_conv(gnn_type, hidden_dim, hidden_dim, num_heads, num_relations))
 
         # Residual projection for first layer when input dim != hidden dim
         if residual and gnn_in_dim != hidden_dim:
@@ -88,11 +98,24 @@ class ChunkGNNEncoder(nn.Module):
         else:
             self.residual_proj = None
 
+        # Pooling: global_mean_pool (default) or learned attention
+        if pooling == "attention":
+            self.pool = AttentionalAggregation(
+                gate_nn=nn.Sequential(
+                    nn.Linear(hidden_dim, hidden_dim // 2),
+                    nn.ReLU(),
+                    nn.Linear(hidden_dim // 2, 1),
+                ),
+            )
+        else:
+            self.pool = None  # use global_mean_pool
+
         self.dropout = nn.Dropout(dropout)
         self.project = nn.Linear(hidden_dim, out_dim)
 
     def forward(
-        self, x: torch.Tensor, edge_index: torch.Tensor, batch: torch.Tensor
+        self, x: torch.Tensor, edge_index: torch.Tensor,
+        batch: torch.Tensor, edge_type: torch.Tensor | None = None,
     ) -> torch.Tensor:
         """Encode a batched graph into per-graph embeddings.
 
@@ -101,6 +124,8 @@ class ChunkGNNEncoder(nn.Module):
             edge_index: Edge connectivity, shape (2, total_edges_in_batch)
             batch: Batch vector mapping each node to its graph index,
                    shape (total_nodes_in_batch,)
+            edge_type: Optional per-edge type labels for RGCNConv,
+                       shape (total_edges_in_batch,)
 
         Returns:
             Graph-level embeddings, shape (num_graphs_in_batch, out_dim)
@@ -111,7 +136,10 @@ class ChunkGNNEncoder(nn.Module):
 
         for i, conv in enumerate(self.convs):
             identity = x
-            x = conv(x, edge_index)
+            if self.uses_edge_type and edge_type is not None:
+                x = conv(x, edge_index, edge_type)
+            else:
+                x = conv(x, edge_index)
             x = F.relu(x)
             x = self.dropout(x)
 
@@ -122,7 +150,10 @@ class ChunkGNNEncoder(nn.Module):
                 x = x + identity
 
         # Pool all node embeddings into one vector per graph
-        x = global_mean_pool(x, batch)
+        if self.pool is not None:
+            x = self.pool(x, index=batch)
+        else:
+            x = global_mean_pool(x, batch)
 
         # Project to output dimension
         x = self.project(x)

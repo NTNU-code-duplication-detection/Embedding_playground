@@ -54,8 +54,10 @@ class SiameseChunkGNN(nn.Module):
         Returns:
             (emb1, emb2) — both shape (batch_size, out_dim)
         """
-        emb1 = self.encoder(batch1.x, batch1.edge_index, batch1.batch)
-        emb2 = self.encoder(batch2.x, batch2.edge_index, batch2.batch)
+        et1 = getattr(batch1, 'edge_type', None)
+        et2 = getattr(batch2, 'edge_type', None)
+        emb1 = self.encoder(batch1.x, batch1.edge_index, batch1.batch, et1)
+        emb2 = self.encoder(batch2.x, batch2.edge_index, batch2.batch, et2)
         return emb1, emb2
 
     def similarity(
@@ -99,8 +101,9 @@ def build_model(config: dict, device: torch.device) -> SiameseChunkGNN:
         gnn_output_dim: int (default 128)
         gnn_layers: int (default 2)
         dropout: float (default 0.1)
-        gnn_type: str -- "GCNConv" or "GATConv" (default "GCNConv")
+        gnn_type: str -- "GCNConv", "GATConv", or "RGCNConv" (default "GCNConv")
         num_heads: int (default 4, only for GATConv)
+        num_relations: int (default 3, only for RGCNConv)
         similarity: str -- "cosine" or "mlp_classifier" (default "cosine")
         classifier_hidden_dim: int (default 256, only for mlp_classifier)
         classifier_dropout: float (default 0.3, only for mlp_classifier)
@@ -124,6 +127,8 @@ def build_model(config: dict, device: torch.device) -> SiameseChunkGNN:
         l2_normalize=model_cfg.get("l2_normalize", False),
         gnn_type=model_cfg.get("gnn_type", "GCNConv"),
         num_heads=model_cfg.get("num_heads", 4),
+        num_relations=model_cfg.get("num_relations", 3),
+        pooling=model_cfg.get("pooling", "global_mean_pool"),
     )
 
     # Build classifier head if configured

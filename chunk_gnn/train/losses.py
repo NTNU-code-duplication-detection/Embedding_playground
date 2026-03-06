@@ -5,12 +5,15 @@ Provides alternatives to MSE on cosine similarity:
   - CosineContrastiveLoss: Hinge-margin loss centered on t=0 decision boundary.
     Stops gradient for pairs that already satisfy their margin, preventing the
     directional collapse seen with MSE (which always pushes toward ±1).
+  - FocalLoss: Down-weights well-classified examples so the model focuses on
+    hard cases (e.g., WT3/T4 pairs).
 """
 
 from __future__ import annotations
 
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
 
 class CosineContrastiveLoss(nn.Module):
@@ -67,3 +70,36 @@ class CosineContrastiveLoss(nn.Module):
             f"CosineContrastiveLoss(margin_pos={self.margin_pos}, "
             f"margin_neg={self.margin_neg})"
         )
+
+
+class FocalLoss(nn.Module):
+    """Focal loss for binary classification (Lin et al., 2017).
+
+    Down-weights well-classified examples so the model focuses gradient
+    on hard cases (e.g., WT3/T4 clone pairs that look like non-clones).
+
+    gamma=0: equivalent to BCEWithLogitsLoss
+    gamma=2: standard focal loss (recommended starting point)
+    """
+
+    def __init__(self, alpha: float = 0.25, gamma: float = 2.0):
+        super().__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+
+    def forward(
+        self, inputs: torch.Tensor, targets: torch.Tensor
+    ) -> torch.Tensor:
+        # Numerically stable focal loss from raw logits
+        p = torch.sigmoid(inputs)
+        ce_loss = F.binary_cross_entropy_with_logits(inputs, targets, reduction="none")
+        # p_t = probability assigned to the correct class
+        p_t = p * targets + (1 - p) * (1 - targets)
+        focal_weight = (1 - p_t) ** self.gamma
+        # Alpha weighting: alpha for positive class, (1-alpha) for negative
+        alpha_t = self.alpha * targets + (1 - self.alpha) * (1 - targets)
+        loss = alpha_t * focal_weight * ce_loss
+        return loss.mean()
+
+    def __repr__(self) -> str:
+        return f"FocalLoss(alpha={self.alpha}, gamma={self.gamma})"

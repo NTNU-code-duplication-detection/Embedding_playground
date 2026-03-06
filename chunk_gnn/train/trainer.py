@@ -75,12 +75,21 @@ class Trainer:
         # Strip [INFO] annotation if present
         self.loss_type = loss_type.replace(" [INFO]", "").strip()
 
-        # Check if model uses classifier head — override loss to BCE
+        # Check if model uses classifier head — override loss to BCE (or focal)
         self.use_classifier = model.use_classifier
         if self.use_classifier:
             self.loss_type = "bce_logits"
-            self.criterion = nn.BCEWithLogitsLoss()
-            log.info("Loss: BCEWithLogitsLoss (classifier head mode)")
+            classifier_loss = train_cfg.get("classifier_loss", "bce_logits")
+            if classifier_loss == "focal":
+                from chunk_gnn.train.losses import FocalLoss
+                focal_alpha = train_cfg.get("focal_alpha", 0.25)
+                focal_gamma = train_cfg.get("focal_gamma", 2.0)
+                self.criterion = FocalLoss(alpha=focal_alpha, gamma=focal_gamma)
+                log.info("Loss: FocalLoss(alpha=%.2f, gamma=%.1f)",
+                         focal_alpha, focal_gamma)
+            else:
+                self.criterion = nn.BCEWithLogitsLoss()
+                log.info("Loss: BCEWithLogitsLoss (classifier head mode)")
         elif self.loss_type == "contrastive":
             self.criterion = CosineContrastiveLoss(
                 margin_pos=train_cfg.get("margin_pos", 0.25),
