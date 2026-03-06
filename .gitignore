@@ -48,3 +48,5 @@ pipeline/node_cache/
 pipeline/nb_program_artifacts_*/
 pipeline/aug_cache_gcj/
 artifacts/
+.DS_Store
+decompiled_gnn/cache/
