@@ -27,6 +27,19 @@ from chunk_gnn.data.bcb_loader import BCBPair
 log = logging.getLogger(__name__)
 
 
+def _infer_edge_types(edge_index: torch.Tensor) -> torch.Tensor:
+    """Infer edge types from edge_index structure.
+
+    Reconstructs edge types without re-precomputing the graph cache.
+    Types: 0=self-loop (src==dst), 1=sequential (|src-dst|==1), 2=parent-child (other)
+    """
+    src, dst = edge_index[0], edge_index[1]
+    edge_type = torch.full((edge_index.size(1),), 2, dtype=torch.long)
+    edge_type[src == dst] = 0
+    edge_type[torch.abs(src - dst) == 1] = 1
+    return edge_type
+
+
 class BCBPairDataset(Dataset):
     """Loads pairs of pre-computed graph objects for siamese training.
 
@@ -106,6 +119,11 @@ class BCBPairDataset(Dataset):
         # Upcast from float16 (storage) to float32 (training)
         if data.x.dtype == torch.float16:
             data.x = data.x.float()
+
+        # Use stored edge types if available (new cache format),
+        # otherwise fall back to heuristic inference (old cache compat)
+        if not hasattr(data, "edge_type") or data.edge_type is None:
+            data.edge_type = _infer_edge_types(data.edge_index)
 
         return data
 

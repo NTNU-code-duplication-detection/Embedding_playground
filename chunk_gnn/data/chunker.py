@@ -19,7 +19,7 @@ Design decisions:
 from __future__ import annotations
 
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import Enum
 
 import tree_sitter_java as tsjava
@@ -53,6 +53,20 @@ STRAIGHT_NODES = frozenset({
     "throw_statement",
 })
 
+# Java reserved words — filtered out during variable extraction
+JAVA_KEYWORDS = frozenset({
+    "abstract", "assert", "boolean", "break", "byte", "case", "catch",
+    "char", "class", "const", "continue", "default", "do", "double",
+    "else", "enum", "extends", "final", "finally", "float", "for",
+    "goto", "if", "implements", "import", "instanceof", "int",
+    "interface", "long", "native", "new", "package", "private",
+    "protected", "public", "return", "short", "static", "strictfp",
+    "super", "switch", "synchronized", "this", "throw", "throws",
+    "transient", "try", "void", "volatile", "while",
+    # Literals
+    "true", "false", "null",
+})
+
 
 # ---------------------------------------------------------------------------
 # Data structures
@@ -74,6 +88,43 @@ class Chunk:
     start_line: int
     end_line: int
     parent_index: int | None  # Index of parent chunk in the chunks list, or None
+    variables: frozenset[str] = field(default_factory=frozenset)  # Variable names in this chunk
+
+
+# ---------------------------------------------------------------------------
+# Variable extraction for data flow edges
+# ---------------------------------------------------------------------------
+
+def _extract_variables(node, code_bytes: bytes, header_only: bool = False) -> frozenset[str]:
+    """Extract variable names from a tree-sitter subtree.
+
+    Walks the AST subtree rooted at `node` and collects identifier leaf
+    nodes, filtering out Java keywords and type names (uppercase-starting).
+    Used to build data flow edges between chunks that share variables.
+
+    Args:
+        node: Tree-sitter node to extract from.
+        code_bytes: Source code bytes for text extraction.
+        header_only: If True, skip block/body children (for CONTROL nodes,
+            so we only get condition/initializer variables, not body variables
+            which belong to child chunks).
+    """
+    names: set[str] = set()
+    stack = [node]
+    while stack:
+        n = stack.pop()
+        if n.type == "identifier":
+            text = code_bytes[n.start_byte:n.end_byte].decode("utf-8", errors="replace")
+            # Skip Java keywords and type-like names (e.g. String, ArrayList)
+            if text not in JAVA_KEYWORDS and text[0:1].islower():
+                names.add(text)
+        else:
+            for child in n.children:
+                # For control nodes: skip the body block and nested statements
+                if header_only and child.type in ("block", *CONTROL_NODES, *STRAIGHT_NODES):
+                    continue
+                stack.append(child)
+    return frozenset(names)
 
 
 # ---------------------------------------------------------------------------
@@ -229,6 +280,9 @@ class TreeSitterChunker:
         if node.type in CONTROL_NODES:
             header = _extract_control_header(code_bytes, node)
             if header:
+                # Extract variables from header only (condition/initializer),
+                # not body — body variables belong to child chunks
+                variables = _extract_variables(node, code_bytes, header_only=True)
                 current_chunk_index = len(chunks)
                 chunks.append(
                     Chunk(
@@ -238,6 +292,7 @@ class TreeSitterChunker:
                         start_line=node.start_point[0],
                         end_line=node.end_point[0],
                         parent_index=parent_chunk_index,
+                        variables=variables,
                     )
                 )
                 # Children of this control node get this chunk as parent
@@ -248,6 +303,7 @@ class TreeSitterChunker:
                 "utf-8", errors="replace"
             ).strip()
             if text:
+                variables = _extract_variables(node, code_bytes)
                 current_chunk_index = len(chunks)
                 chunks.append(
                     Chunk(
@@ -257,6 +313,7 @@ class TreeSitterChunker:
                         start_line=node.start_point[0],
                         end_line=node.end_point[0],
                         parent_index=parent_chunk_index,
+                        variables=variables,
                     )
                 )
 
