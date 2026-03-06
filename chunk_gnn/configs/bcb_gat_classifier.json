@@ -3,7 +3,7 @@
 
     "data": {
         "bcb_root": "data/data_source/dataset_bigclonebench",
-        "clone_labels": "clone_labels.txt",
+        "clone_labels": "clone_labels_typed.txt",
         "dataset_files": "dataset_files",
         "skip_functions": ["37044", "4892654", "6966398", "7550876"]
     },
@@ -23,7 +23,7 @@
         "gnn_layers": 2,
         "gnn_type": "GATConv",
         "num_heads": 4,
-        "pooling": "global_mean_pool [INFO]",
+        "pooling": "global_mean_pool",
         "dropout": 0.1,
         "input_projection": true,
         "residual": false,
@@ -37,7 +37,7 @@
         "batch_size": 32,
         "learning_rate": 0.0005,
         "weight_decay": 1e-4,
-        "loss": "bce_logits [INFO] auto-set by classifier mode",
+        "loss": "bce_logits",
         "label_positive": 1.0,
         "label_negative": -1.0,
         "save_epoch_interval": 1,

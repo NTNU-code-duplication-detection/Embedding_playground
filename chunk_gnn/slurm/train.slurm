@@ -23,13 +23,14 @@
 #SBATCH --mail-user=skjalgct@ntnu.no
 
 # ---------------------------------------------------------------------------
-# Configuration
+# Configuration (override via environment: CONFIG=... EXPERIMENT=... sbatch train.slurm)
 # ---------------------------------------------------------------------------
 VENV_DIR="${HOME}/magnet-venv"
 BCB_ROOT="${HOME}/Multigraph_match_optimized/data/data_source/dataset_bigclonebench"
-CACHE_DIR="${HOME}/chunk_gnn_cache"
-OUTPUT_DIR="${HOME}/chunk_gnn_out"
-CONFIG="${HOME}/dataset_loader/chunk_gnn/configs/bcb_mvp.json"
+CACHE_DIR="${CACHE_DIR:-${HOME}/chunk_gnn_cache}"
+CONFIG="${CONFIG:-${HOME}/dataset_loader/chunk_gnn/configs/bcb_classifier.json}"
+EXPERIMENT="${EXPERIMENT:-default}"
+OUTPUT_DIR="${HOME}/chunk_gnn_out/${EXPERIMENT}"
 WORK_DIR="${HOME}/dataset_loader"
 
 # ---------------------------------------------------------------------------
@@ -45,6 +46,7 @@ die()       { echo "[$(timestamp)] FATAL: $*" >&2; exit 1; }
 log "=== Chunk-GNN Training ==="
 log "Job ID:     ${SLURM_JOB_ID}"
 log "Job name:   ${SLURM_JOB_NAME}"
+log "Experiment: ${EXPERIMENT}"
 log "Node:       $(hostname)"
 log "Partition:  ${SLURM_JOB_PARTITION}"
 log "GPUs:       ${SLURM_GPUS_ON_NODE:-unknown}"
@@ -81,6 +83,7 @@ log "  Cached graph files: ${CACHED_FILES}"
 
 [[ -f "${CONFIG}" ]] || die "Config not found: ${CONFIG}"
 [[ -f "${BCB_ROOT}/clone_labels.txt" ]] || die "clone_labels.txt not found"
+[[ -f "${BCB_ROOT}/clone_labels_typed.txt" ]] || log "  WARNING: clone_labels_typed.txt not found (per-type eval will use collapsed types)"
 
 log "  Pre-flight: ALL PASSED"
 

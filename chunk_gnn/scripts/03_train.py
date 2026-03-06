@@ -110,7 +110,12 @@ def main():
     # Load data
     # -----------------------------------------------------------------------
     log.info("Loading BCB labels...")
-    loader = BCBLoader(bcb_root=args.bcb_root)
+    data_cfg = config.get("data", {})
+    loader = BCBLoader(
+        bcb_root=args.bcb_root,
+        config=data_cfg,
+        labels_file=data_cfg.get("clone_labels"),
+    )
 
     train_pairs = loader.get_split("train")
     val_pairs = loader.get_split("val")
