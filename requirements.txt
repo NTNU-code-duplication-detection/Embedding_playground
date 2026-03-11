@@ -1,3 +1,6 @@
+flask
+tree-sitter
+tree-sitter-java
 transformers
 torch
 numpy

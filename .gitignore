@@ -4,7 +4,8 @@ data/sourcecodeplagiarismdataset/IR-Plag-Dataset/
 *__pycache__
 .venv
 .env
-
+.claude/
+.idea/
 # Python
 __pycache__/
 *.pyc
@@ -13,6 +14,7 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+
 
 # Jupyter
 .ipynb_checkpoints/
@@ -50,3 +52,6 @@ pipeline/aug_cache_gcj/
 artifacts/
 .DS_Store
 decompiled_gnn/cache/
+
+# Windows reserved device names
+nul
