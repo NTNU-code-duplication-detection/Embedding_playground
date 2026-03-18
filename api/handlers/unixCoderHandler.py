@@ -1,9 +1,9 @@
 # pylint: disable=invalid-name
 """Handler for UniXcoder-based plagiarism detection endpoint.
 
-Accepts two Java code snippets, chunks them with TreeSitterChunker,
-embeds each chunk with UniXcoder, then computes pairwise cosine
-similarity to identify and return suspicious chunk pairs.
+Accepts two Java project folders (lists of files), chunks every file with
+TreeSitterChunker, embeds each chunk with UniXcoder, then computes pairwise
+cosine similarity to identify and return suspicious chunk pairs.
 
 The model and chunker are lazy-loaded once and reused across requests.
 """
@@ -53,31 +53,58 @@ def _chunk_to_dict(chunk: Chunk) -> dict:
     }
 
 
-# ---------------------------------------------------------------------------
-# Validation helper
-# ---------------------------------------------------------------------------
+def _validate_folder_items(folder: list, name: str) -> str | None:
+    """Return an error string if any file object in folder is invalid, else None."""
+    for i, f in enumerate(folder):
+        content = f.get("content") if isinstance(f, dict) else None
+        if not isinstance(content, str) or not content.strip():
+            return f"{name}[{i}] must have a non-empty 'content' string."
+    return None
 
-def _validate_request(body: dict | None) -> tuple[str | None, str, str, float]:
+
+def _validate_request(body: dict | None):
     """Validate and extract fields from the request body.
 
-    Returns (error_message, code1, code2, threshold).
+    Returns (error_message, folder1, folder2, threshold, model_name, pipeline).
     error_message is None when inputs are valid.
     """
     if not body:
-        return "Request body must be JSON.", "", "", 0.0
+        return "Request body must be JSON.", None, None, 0.0, None, None
 
-    code1 = body.get("code1", "")
-    code2 = body.get("code2", "")
+    folder1 = body.get("folder1")
+    folder2 = body.get("folder2")
     threshold = body.get("threshold", DEFAULT_THRESHOLD)
+    model_name = body.get("model_name")
+    pipeline = body.get("pipeline")
 
-    if not isinstance(code1, str) or not code1.strip():
-        return "'code1' must be a non-empty string.", "", "", 0.0
-    if not isinstance(code2, str) or not code2.strip():
-        return "'code2' must be a non-empty string.", "", "", 0.0
+    if not isinstance(folder1, list) or not folder1:
+        return (
+            "'folder1' must be a non-empty list of file objects.",
+            None, None, 0.0, None, None,
+        )
+    if not isinstance(folder2, list) or not folder2:
+        return (
+            "'folder2' must be a non-empty list of file objects.",
+            None, None, 0.0, None, None,
+        )
+
+    error = _validate_folder_items(folder1, "folder1") or \
+            _validate_folder_items(folder2, "folder2")
+    if error:
+        return error, None, None, 0.0, None, None
+
     if not isinstance(threshold, (int, float)) or not 0.0 <= float(threshold) <= 1.0:
-        return "'threshold' must be a float between 0 and 1.", "", "", 0.0
+        return "'threshold' must be a float between 0 and 1.", None, None, 0.0, None, None
 
-    return None, code1, code2, float(threshold)
+    return None, folder1, folder2, float(threshold), model_name, pipeline
+
+
+def _chunks_from_folder(chunker: TreeSitterChunker, folder: list[dict]) -> list[Chunk]:
+    """Chunk all files in a folder and return a flat list of chunks."""
+    all_chunks = []
+    for file in folder:
+        all_chunks.extend(chunker.chunk_function(file["content"]))
+    return all_chunks
 
 
 # ---------------------------------------------------------------------------
@@ -91,47 +118,37 @@ def check_similarity():
 
     Request body (JSON):
         {
-            "code1":     "<Java method source>",
-            "code2":     "<Java method source>",
-            "threshold":  0.8          (optional, default 0.8)
+            "folder1":    [{"name": "<filename>", "content": "<Java source>"}, ...],
+            "folder2":    [{"name": "<filename>", "content": "<Java source>"}, ...],
+            "threshold":   0.8,           (optional, default 0.8)
+            "model_name": "<model id>",   (optional)
+            "pipeline":   "<pipeline>",   (optional)
         }
-
-    Both code1 and code2 should be single Java methods (no class wrapper
-    needed). The threshold controls what cosine similarity counts as
-    a suspicious chunk match.
 
     Response (JSON):
         {
             "is_plagiarism":      bool,
             "overall_similarity": float,
             "threshold_used":     float,
-            "suspicious_chunks":  [
-                {
-                    "similarity":  float,
-                    "code1_chunk": { "text", "kind", "start_line",
-                                     "end_line", "depth" },
-                    "code2_chunk": { "text", "kind", "start_line",
-                                     "end_line", "depth" }
-                },
-                ...
-            ]
+            "suspicious_chunks":  [...]
         }
     """
-    error, code1, code2, threshold = _validate_request(request.get_json(silent=True))
+    error, folder1, folder2, threshold, _, _ = _validate_request(request.get_json(silent=True))
     if error:
         return jsonify({"error": error}), 400
 
     chunker, embedder = _get_models()
-    chunks1 = chunker.chunk_function(code1)
-    chunks2 = chunker.chunk_function(code2)
+
+    chunks1 = _chunks_from_folder(chunker, folder1)
+    chunks2 = _chunks_from_folder(chunker, folder2)
 
     if not chunks1:
         return jsonify({
-            "error": "No chunks extracted from code1. Provide a valid Java method."
+            "error": "No chunks extracted from folder1. Provide valid Java files."
         }), 400
     if not chunks2:
         return jsonify({
-            "error": "No chunks extracted from code2. Provide a valid Java method."
+            "error": "No chunks extracted from folder2. Provide valid Java files."
         }), 400
 
     try:
@@ -162,7 +179,7 @@ def check_similarity():
         reverse=True,
     )
 
-    # Overall similarity: mean of each code1 chunk's best match in code2
+    # Overall similarity: mean of each folder1 chunk's best match in folder2
     overall_similarity = round(sim_matrix.max(dim=1).values.mean().item(), 4)
 
     return jsonify({
